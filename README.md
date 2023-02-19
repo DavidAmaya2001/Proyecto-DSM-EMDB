@@ -11,10 +11,11 @@
 
 //  LINK TRELLO
 
-https://www.figma.com/file/HkvlkLkKNIUluu1v1zBq0Y/Untitled?node-id=0%3A1&t=2qLXfmvKZukBAlaP-1
+
 
 //  LINK FIGMA (MockUps)
 
+https://www.figma.com/file/HkvlkLkKNIUluu1v1zBq0Y/Untitled?node-id=0%3A1&t=2qLXfmvKZukBAlaP-1
 
 //  DOCUMENTO PDF
 
