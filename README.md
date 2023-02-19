@@ -1,6 +1,6 @@
 # Proyecto-DSM-EMDB
 
-//INTEGRANTES
+//  INTEGRANTES
 
 - David Elias Amaya Ramirez AR190019
 - Carlos Emerson Portillo Martínez PM191144
@@ -9,17 +9,18 @@
 - Alejandro José Castillo Pacheco CP190719
 
 
-//LINK TRELLO
+//  LINK TRELLO
+
+https://www.figma.com/file/HkvlkLkKNIUluu1v1zBq0Y/Untitled?node-id=0%3A1&t=2qLXfmvKZukBAlaP-1
+
+//  LINK FIGMA (MockUps)
 
 
-//LINK FIGMA (MockUps)
-
-
-//DOCUMENTO PDF
+//  DOCUMENTO PDF
 
 
 
-//LICENCIAS CREATIVE COMMONS
+//  LICENCIAS CREATIVE COMMONS
 
 - You are free to:
     Share — copy and redistribute the material in any medium or format
