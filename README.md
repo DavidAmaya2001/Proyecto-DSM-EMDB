@@ -11,7 +11,7 @@
 
 //  LINK TRELLO
 
-
+https://trello.com/invite/b/4soeP44c/ATTI5bfbc4ccbf66c8b855d3246076073c9a10BDAC16/app-emdb
 
 //  LINK FIGMA (MockUps)
 
