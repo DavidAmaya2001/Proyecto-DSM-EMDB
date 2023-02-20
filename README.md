@@ -21,7 +21,9 @@ https://github.com/TuTioElPollo-Oficial/Proyecto-DSM-EMDB/tree/Fase-1/sources
 
 //  DOCUMENTO PDF
 
+https://udbedu-my.sharepoint.com/:w:/g/personal/pm191144_alumno_udb_edu_sv/EXC9w07UyktLsdOhtnJhWs4BOGIGVXjAju1pgDyoq-FTJw?e=Czia7v
 
+https://github.com/TuTioElPollo-Oficial/Proyecto-DSM-EMDB/tree/Fase-1/Docs
 
 //  LICENCIAS CREATIVE COMMONS
 
