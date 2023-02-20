@@ -17,7 +17,11 @@ https://trello.com/invite/b/4soeP44c/ATTI5bfbc4ccbf66c8b855d3246076073c9a10BDAC1
 
 https://www.figma.com/file/HkvlkLkKNIUluu1v1zBq0Y/Untitled?node-id=0%3A1&t=2qLXfmvKZukBAlaP-1
 
-//  DOCUMENTO PDF
+https://github.com/TuTioElPollo-Oficial/Proyecto-DSM-EMDB/tree/Fase-1/sources
+
+//  DOCUMENTO FASE 1
+
+https://udbedu-my.sharepoint.com/:w:/g/personal/pm191144_alumno_udb_edu_sv/EXC9w07UyktLsdOhtnJhWs4BOGIGVXjAju1pgDyoq-FTJw?rtime=TuCRhvQS20g
 
 
 
