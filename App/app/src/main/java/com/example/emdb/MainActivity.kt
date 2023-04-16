@@ -20,6 +20,11 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
     private lateinit var toggle: ActionBarDrawerToggle
 
     override fun onCreate(savedInstanceState: Bundle?) {
+
+        Thread.sleep(4000)
+
+        setTheme(R.style.Theme_EMDB)
+
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 

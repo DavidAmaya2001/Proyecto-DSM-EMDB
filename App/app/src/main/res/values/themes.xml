@@ -17,4 +17,7 @@
         <item name="windowNoTitle">true</item>
 
     </style>
+    <style name="splashTheme" parent="Theme.EMDB">
+        <item name="android:windowBackground">@drawable/splashscreen</item>
+    </style>
 </resources>
