@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">EMDB - Tu aplicación de reviews</string>
+    <string name="navigation_menu_open">Abrir</string>
+    <string name="navigation_menu_close">Cerrar</string>
+</resources>
