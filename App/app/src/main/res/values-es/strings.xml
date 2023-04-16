@@ -1,5 +1,9 @@
 <resources>
-    <string name="app_name">EMDB - Tu aplicación de reviews</string>
+    <string name="app_name">EMDB</string>
     <string name="navigation_menu_open">Abrir</string>
     <string name="navigation_menu_close">Cerrar</string>
+    <string name="background_header_description">Fondo de películas</string>
+    <string name="header_movies">Películas</string>
+    <string name="background_header_description_s">Fondo de Series</string>
+    <string name="header_series">Series</string>
 </resources>
