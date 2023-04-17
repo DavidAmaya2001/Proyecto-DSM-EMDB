@@ -10,6 +10,7 @@
     <RelativeLayout
         android:layout_width="fill_parent"
         android:layout_height="185dp">
+
         <ImageView
             android:id="@+id/headerMovies"
             android:layout_width="fill_parent"
@@ -25,9 +26,9 @@
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_weight="1"
-            android:padding="5dp"
-            android:fontFamily="monospace"
             android:background="@color/buttonColor"
+            android:fontFamily="monospace"
+            android:padding="5dp"
             android:text="@string/header_movies"
             android:textAlignment="center"
             android:textAllCaps="false"
@@ -35,4 +36,98 @@
             android:textSize="25dp"
             android:textStyle="bold" />
     </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="2dp"
+            android:paddingVertical="10dp"
+            android:orientation="vertical"
+            android:gravity="center">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="250dp"
+                    android:contentDescription="@string/movies_title"
+                    android:src="@mipmap/mario"
+                    android:paddingHorizontal="2dp"
+                    android:layout_weight="1"
+                    />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="250dp"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/series_title"
+                    android:paddingHorizontal="2dp"
+                    android:src="@mipmap/john" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="250dp"
+                    android:contentDescription="@string/movies_title"
+                    android:src="@mipmap/mario"
+                    android:paddingHorizontal="2dp"
+                    android:layout_weight="1"
+                    />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="250dp"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/series_title"
+                    android:paddingHorizontal="2dp"
+                    android:src="@mipmap/john" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="250dp"
+                    android:contentDescription="@string/movies_title"
+                    android:src="@mipmap/mario"
+                    android:paddingHorizontal="2dp"
+                    android:layout_weight="1"
+                    />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="250dp"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/series_title"
+                    android:paddingHorizontal="2dp"
+                    android:src="@mipmap/john" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="250dp"
+                    android:contentDescription="@string/movies_title"
+                    android:src="@mipmap/mario"
+                    android:paddingHorizontal="2dp"
+                    android:layout_weight="1"
+                    />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="250dp"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/series_title"
+                    android:paddingHorizontal="2dp"
+                    android:src="@mipmap/john" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
 </LinearLayout>

@@ -13,4 +13,6 @@
     <string name="second_info">Más</string>
     <string name="Log_In">Cuenta</string>
     <string name="contacts">Contactos</string>
+    <string name="movies_title">película</string>
+    <string name="series_title">serie</string>
 </resources>
