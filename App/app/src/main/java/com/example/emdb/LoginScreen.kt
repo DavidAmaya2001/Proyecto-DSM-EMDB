@@ -8,6 +8,7 @@ import android.view.Window
 import android.view.WindowManager
 import android.widget.Button
 import android.widget.EditText
+import android.widget.ImageButton
 import android.widget.TextView
 import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
@@ -19,6 +20,7 @@ import com.google.android.gms.signin.internal.SignInClientImpl
 import com.google.android.gms.tasks.Task
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.GoogleAuthProvider
+import com.google.firebase.auth.OAuthProvider
 
 class LoginScreen : AppCompatActivity() {
 
@@ -42,7 +44,11 @@ class LoginScreen : AppCompatActivity() {
         }
 
 
-        val facebookBtn = findViewById<Button>(R.id.facebookBtn);
+        val twitterBtn = findViewById<ImageButton>(R.id.facebookBtn);
+
+        twitterBtn.setOnClickListener {
+            this.twitterSignIn();
+        }
 
         val gso = GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
             .requestIdToken(getString(R.string.default_web_client_id))
@@ -51,7 +57,7 @@ class LoginScreen : AppCompatActivity() {
 
         googleSignInClient = GoogleSignIn.getClient(this, gso)
 
-        val googleBtn = findViewById<Button>(R.id.googleBtn);
+        val googleBtn = findViewById<ImageButton>(R.id.googleBtn);
 
         googleBtn.setOnClickListener {
             this.googleSignIn();
@@ -110,6 +116,28 @@ class LoginScreen : AppCompatActivity() {
             }else{
                 Toast.makeText(this, it.exception.toString(), Toast.LENGTH_LONG).show()
             }
+        }
+    }
+
+    private fun twitterSignIn(){
+        val provider = OAuthProvider.newBuilder("twitter.com");
+        provider.addCustomParameter("lang", "en");
+
+        val pendingResultTask = auth.pendingAuthResult
+        if(pendingResultTask != null){
+            pendingResultTask.addOnSuccessListener {
+                Toast.makeText(applicationContext, "Lograste logearte", Toast.LENGTH_LONG).show()
+                val intent = Intent(this, MainActivity::class.java);
+                startActivity(intent);
+            }
+        }else
+        {
+            auth.startActivityForSignInWithProvider(this, provider.build())
+                .addOnSuccessListener {
+                    Toast.makeText(applicationContext, "Lograste logearte (?", Toast.LENGTH_LONG).show()
+                    val intent = Intent(this, MainActivity::class.java);
+                    startActivity(intent);
+                }
         }
     }
 
