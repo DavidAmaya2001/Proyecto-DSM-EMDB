@@ -56,7 +56,6 @@
                     android:layout_height="250dp"
                     android:contentDescription="@string/movies_title"
                     android:src="@mipmap/mario"
-                    android:paddingHorizontal="2dp"
                     android:layout_weight="1"
                     />
 
@@ -65,8 +64,7 @@
                     android:layout_height="250dp"
                     android:layout_weight="1"
                     android:contentDescription="@string/series_title"
-                    android:paddingHorizontal="2dp"
-                    android:src="@mipmap/john" />
+                    android:src="@mipmap/guardians" />
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
@@ -75,8 +73,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="250dp"
                     android:contentDescription="@string/movies_title"
-                    android:src="@mipmap/mario"
-                    android:paddingHorizontal="2dp"
+                    android:src="@mipmap/antman"
                     android:layout_weight="1"
                     />
 
@@ -85,8 +82,7 @@
                     android:layout_height="250dp"
                     android:layout_weight="1"
                     android:contentDescription="@string/series_title"
-                    android:paddingHorizontal="2dp"
-                    android:src="@mipmap/john" />
+                    android:src="@mipmap/ff" />
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
@@ -95,8 +91,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="250dp"
                     android:contentDescription="@string/movies_title"
-                    android:src="@mipmap/mario"
-                    android:paddingHorizontal="2dp"
+                    android:src="@mipmap/spiderman"
                     android:layout_weight="1"
                     />
 
@@ -105,28 +100,7 @@
                     android:layout_height="250dp"
                     android:layout_weight="1"
                     android:contentDescription="@string/series_title"
-                    android:paddingHorizontal="2dp"
-                    android:src="@mipmap/john" />
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="250dp"
-                    android:contentDescription="@string/movies_title"
-                    android:src="@mipmap/mario"
-                    android:paddingHorizontal="2dp"
-                    android:layout_weight="1"
-                    />
-
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="250dp"
-                    android:layout_weight="1"
-                    android:contentDescription="@string/series_title"
-                    android:paddingHorizontal="2dp"
-                    android:src="@mipmap/john" />
+                    android:src="@mipmap/scream" />
             </LinearLayout>
         </LinearLayout>
     </ScrollView>

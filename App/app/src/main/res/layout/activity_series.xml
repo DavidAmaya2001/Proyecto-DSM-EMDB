@@ -52,8 +52,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="250dp"
                     android:contentDescription="@string/movies_title"
-                    android:src="@mipmap/wanda"
-                    android:paddingHorizontal="2dp"
+                    android:src="@mipmap/tlou"
                     android:layout_weight="1"
                     />
 
@@ -62,8 +61,7 @@
                     android:layout_height="250dp"
                     android:layout_weight="1"
                     android:contentDescription="@string/series_title"
-                    android:paddingHorizontal="2dp"
-                    android:src="@mipmap/tlou" />
+                    android:src="@mipmap/mandalorian" />
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
@@ -72,8 +70,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="250dp"
                     android:contentDescription="@string/movies_title"
-                    android:src="@mipmap/wanda"
-                    android:paddingHorizontal="2dp"
+                    android:src="@mipmap/theboys"
                     android:layout_weight="1"
                     />
 
@@ -83,7 +80,7 @@
                     android:layout_weight="1"
                     android:contentDescription="@string/series_title"
                     android:paddingHorizontal="2dp"
-                    android:src="@mipmap/tlou" />
+                    android:src="@mipmap/loki" />
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
@@ -92,8 +89,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="250dp"
                     android:contentDescription="@string/movies_title"
-                    android:src="@mipmap/wanda"
-                    android:paddingHorizontal="2dp"
+                    android:src="@mipmap/invencible"
                     android:layout_weight="1"
                     />
 
@@ -102,29 +98,9 @@
                     android:layout_height="250dp"
                     android:layout_weight="1"
                     android:contentDescription="@string/series_title"
-                    android:paddingHorizontal="2dp"
-                    android:src="@mipmap/tlou" />
+                    android:src="@mipmap/peacemaker" />
             </LinearLayout>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="250dp"
-                    android:contentDescription="@string/movies_title"
-                    android:src="@mipmap/wanda"
-                    android:paddingHorizontal="2dp"
-                    android:layout_weight="1"
-                    />
 
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="250dp"
-                    android:layout_weight="1"
-                    android:contentDescription="@string/series_title"
-                    android:paddingHorizontal="2dp"
-                    android:src="@mipmap/tlou" />
-            </LinearLayout>
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
