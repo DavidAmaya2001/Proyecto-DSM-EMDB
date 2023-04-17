@@ -3,4 +3,8 @@
     <string name="navigation_menu_open">Open</string>
     <string name="navigation_menu_close">Close</string>
 
+
+    <string name="info_popup">Gracias por su preferencia</string>
+    <string name="info2_popup">Puedes compartir la aplicación mediante los siguientes medios digitales o a través de mensaje de texto (ten en cuenta que el mensaje de texto puede estar sujeto a cargos de envió según la operadora telefónica)</string>
+
 </resources>
