@@ -31,6 +31,9 @@ class LoginScreen : AppCompatActivity() {
             this.login(email,password);
         }
 
+        val facebookBtn = findViewById<Button>(R.id.facebookBtn);
+        val googleBtn = findViewById<Button>(R.id.googleBtn);
+
         val registerTv = findViewById<TextView>(R.id.registerTv)
         registerTv.setOnClickListener{
             this.goToRegister();

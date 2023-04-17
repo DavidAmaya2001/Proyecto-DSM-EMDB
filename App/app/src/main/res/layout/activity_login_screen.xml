@@ -134,6 +134,7 @@
                 android:paddingVertical="20dp"
                 android:layout_marginEnd="10dp"
                 android:backgroundTint="@color/secondary"
+
                 />
 
             <Button
