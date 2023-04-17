@@ -49,6 +49,8 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
             R.id.nav_item_one -> startActivity(Intent(this, MainActivity::class.java))
             R.id.nav_item_two -> startActivity(Intent(this, Peliculas::class.java))
             R.id.nav_item_three -> startActivity(Intent(this, Series::class.java))
+            R.id.nav_item_six -> startActivity(Intent(this, LoginScreen::class.java))
+            R.id.nav_item_seven -> startActivity(Intent(this, ContactActivity::class.java))
         }
         drawer.closeDrawer(GravityCompat.START)
         return true

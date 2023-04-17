@@ -72,8 +72,6 @@ class LoginScreen : AppCompatActivity() {
     private fun login(email:String, password: String){
         auth.signInWithEmailAndPassword(email,password).addOnCompleteListener{task ->
             if(task.isSuccessful){
-
-                Toast.makeText(applicationContext, "Lograste logearte", Toast.LENGTH_LONG).show()
                 val intent = Intent(this, MainActivity::class.java);
                 startActivity(intent);
                 finish();
@@ -110,7 +108,6 @@ class LoginScreen : AppCompatActivity() {
         val credential = GoogleAuthProvider.getCredential(account.idToken, null)
         auth.signInWithCredential(credential).addOnCompleteListener{
             if(it.isSuccessful){
-                Toast.makeText(applicationContext, "Lograste logearte", Toast.LENGTH_LONG).show()
                 val intent = Intent(this, MainActivity::class.java);
                 startActivity(intent);
             }else{
@@ -126,7 +123,6 @@ class LoginScreen : AppCompatActivity() {
         val pendingResultTask = auth.pendingAuthResult
         if(pendingResultTask != null){
             pendingResultTask.addOnSuccessListener {
-                Toast.makeText(applicationContext, "Lograste logearte", Toast.LENGTH_LONG).show()
                 val intent = Intent(this, MainActivity::class.java);
                 startActivity(intent);
             }
@@ -134,7 +130,6 @@ class LoginScreen : AppCompatActivity() {
         {
             auth.startActivityForSignInWithProvider(this, provider.build())
                 .addOnSuccessListener {
-                    Toast.makeText(applicationContext, "Lograste logearte (?", Toast.LENGTH_LONG).show()
                     val intent = Intent(this, MainActivity::class.java);
                     startActivity(intent);
                 }
