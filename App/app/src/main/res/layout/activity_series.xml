@@ -27,7 +27,7 @@
             android:layout_weight="1"
             android:padding="5dp"
             android:fontFamily="monospace"
-            android:background="@color/black"
+            android:background="@color/buttonColor"
             android:text="@string/header_series"
             android:textAlignment="center"
             android:textAllCaps="false"

@@ -4,7 +4,7 @@
     android:id="@+id/nav_header"
     android:layout_width="match_parent"
     android:layout_height="160dp"
-    android:background="#162534"
+    android:background="@color/primary"
     android:clickable="true"
     android:foreground="?attr/selectableItemBackgroundBorderless"
     android:gravity="bottom"
@@ -23,7 +23,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingTop="16dp"
-        android:text="PROBANDO XD"
+        android:text="@string/header_menu"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         />
 

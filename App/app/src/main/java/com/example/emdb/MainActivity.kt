@@ -1,5 +1,6 @@
 package com.example.emdb
 
+import android.content.Intent
 import android.media.VolumeShaper.Configuration
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -45,9 +46,9 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
 
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
         when(item.itemId){
-            R.id.nav_item_one -> Toast.makeText(this,"Item 1", Toast.LENGTH_SHORT).show()
-            R.id.nav_item_two -> Toast.makeText(this,"Item 2", Toast.LENGTH_SHORT).show()
-            R.id.nav_item_three -> Toast.makeText(this,"Item 3", Toast.LENGTH_SHORT).show()
+            R.id.nav_item_one -> startActivity(Intent(this, MainActivity::class.java))
+            R.id.nav_item_two -> startActivity(Intent(this, Peliculas::class.java))
+            R.id.nav_item_three -> startActivity(Intent(this, Series::class.java))
         }
         drawer.closeDrawer(GravityCompat.START)
         return true

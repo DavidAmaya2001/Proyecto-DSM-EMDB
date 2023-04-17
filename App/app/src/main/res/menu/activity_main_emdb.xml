@@ -3,28 +3,23 @@
     <group>
         <item
             android:id="@+id/nav_item_one"
-            android:icon="@drawable/abc_vector_test"
-            android:title="Item 1" />
+            android:title="@string/home" />
         <item
             android:id="@+id/nav_item_two"
-            android:icon="@drawable/abc_vector_test"
-            android:title="Item 2" />
+            android:title="@string/movies_link" />
         <item
             android:id="@+id/nav_item_three"
-            android:icon="@drawable/abc_vector_test"
-            android:title="Item 3" />
+            android:title="@string/series_link" />
     </group>
 
-    <item android:title="Title 1">
+    <item android:title="@string/second_info">
         <menu>
             <item
                 android:id="@+id/nav_item_six"
-                android:icon="@drawable/abc_vector_test"
-                android:title="Item 6" />
+                android:title="@string/Log_In" />
             <item
                 android:id="@+id/nav_item_seven"
-                android:icon="@drawable/abc_vector_test"
-                android:title="Item 7" />
+                android:title="@string/contacts" />
         </menu>
     </item>
 </menu>

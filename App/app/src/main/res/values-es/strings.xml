@@ -6,4 +6,11 @@
     <string name="header_movies">Películas</string>
     <string name="background_header_description_s">Fondo de Series</string>
     <string name="header_series">Series</string>
+    <string name="header_menu">EMDB - Tu app de reviews</string>
+    <string name="movies_link">Películas</string>
+    <string name="series_link">Series</string>
+    <string name="home">Menú Principal</string>
+    <string name="second_info">Más</string>
+    <string name="Log_In">Cuenta</string>
+    <string name="contacts">Contactos</string>
 </resources>
