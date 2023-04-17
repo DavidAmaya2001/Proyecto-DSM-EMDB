@@ -15,4 +15,5 @@
     <string name="contacts">Contacts</string>
     <string name="movies_title">movie</string>
     <string name="series_title">series</string>
+    <string name="movies_series">Movies and Series</string>
 </resources>
