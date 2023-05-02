@@ -19,11 +19,17 @@ https://www.figma.com/file/HkvlkLkKNIUluu1v1zBq0Y/Untitled?node-id=0%3A1&t=2qLXf
 
 https://github.com/TuTioElPollo-Oficial/Proyecto-DSM-EMDB/tree/Fase-1/sources
 
+<<<<<<< HEAD
 //  DOCUMENTO FASE 1
 
 https://udbedu-my.sharepoint.com/:w:/g/personal/pm191144_alumno_udb_edu_sv/EXC9w07UyktLsdOhtnJhWs4BOGIGVXjAju1pgDyoq-FTJw?rtime=TuCRhvQS20g
+=======
+//  DOCUMENTO PDF
+>>>>>>> f094ec5990095c54bee022ba1ff1ad1cca801863
 
+https://udbedu-my.sharepoint.com/:w:/g/personal/pm191144_alumno_udb_edu_sv/EXC9w07UyktLsdOhtnJhWs4BOGIGVXjAju1pgDyoq-FTJw?e=Czia7v
 
+https://github.com/TuTioElPollo-Oficial/Proyecto-DSM-EMDB/tree/Fase-1/Docs
 
 //  LICENCIAS CREATIVE COMMONS
 
