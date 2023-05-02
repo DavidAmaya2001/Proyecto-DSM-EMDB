@@ -1,32 +1,43 @@
 package com.example.app.ui.series
 
-import androidx.lifecycle.ViewModelProvider
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.example.app.R
+import android.widget.TextView
+import androidx.fragment.app.Fragment
+import androidx.lifecycle.ViewModelProvider
+import com.example.app.databinding.FragmentContactsBinding
+import com.example.app.databinding.FragmentSeriesBinding
+import com.example.app.ui.contacts.ContactsViewModel
 
 class SeriesFragment : Fragment() {
 
-    companion object {
-        fun newInstance() = SeriesFragment()
-    }
+    private var _binding: FragmentSeriesBinding? = null
 
-    private lateinit var viewModel: SeriesViewModel
+    // This property is only valid between onCreateView and
+    // onDestroyView.
+    private val binding get() = _binding!!
 
     override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
+        inflater: LayoutInflater,
+        container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
-        return inflater.inflate(R.layout.fragment_series, container, false)
+    ): View {
+        val seriesViewModel =
+            ViewModelProvider(this).get(SeriesViewModel::class.java)
+
+        _binding = FragmentSeriesBinding.inflate(inflater, container, false)
+        val root: View = binding.root
+
+        //AQUÍ SE EMPIEZA A PROGRAMAR
+
+
+        return root
     }
 
-    override fun onActivityCreated(savedInstanceState: Bundle?) {
-        super.onActivityCreated(savedInstanceState)
-        viewModel = ViewModelProvider(this).get(SeriesViewModel::class.java)
-        // TODO: Use the ViewModel
+    override fun onDestroyView() {
+        super.onDestroyView()
+        _binding = null
     }
-
 }

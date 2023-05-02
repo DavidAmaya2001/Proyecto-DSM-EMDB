@@ -1,32 +1,42 @@
 package com.example.app.ui.account
 
-import androidx.lifecycle.ViewModelProvider
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.example.app.R
+import android.widget.TextView
+import androidx.fragment.app.Fragment
+import androidx.lifecycle.ViewModelProvider
+import com.example.app.databinding.FragmentAccountBinding
+
+
 
 class AccountFragment : Fragment() {
 
-    companion object {
-        fun newInstance() = AccountFragment()
-    }
+    private var _binding: FragmentAccountBinding? = null
 
-    private lateinit var viewModel: AccountViewModel
+    // This property is only valid between onCreateView and
+    // onDestroyView.
+    private val binding get() = _binding!!
 
     override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
+        inflater: LayoutInflater,
+        container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
-        return inflater.inflate(R.layout.fragment_account, container, false)
+    ): View {
+        val accountViewModel =
+            ViewModelProvider(this).get(AccountViewModel::class.java)
+
+        _binding = FragmentAccountBinding.inflate(inflater, container, false)
+        val root: View = binding.root
+
+        //AQUÍ SE EMPIEZA A PROGRAMAR
+
+        return root
     }
 
-    override fun onActivityCreated(savedInstanceState: Bundle?) {
-        super.onActivityCreated(savedInstanceState)
-        viewModel = ViewModelProvider(this).get(AccountViewModel::class.java)
-        // TODO: Use the ViewModel
+    override fun onDestroyView() {
+        super.onDestroyView()
+        _binding = null
     }
-
 }

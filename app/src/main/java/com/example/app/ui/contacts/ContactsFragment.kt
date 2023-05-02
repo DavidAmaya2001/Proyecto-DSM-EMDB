@@ -1,32 +1,40 @@
 package com.example.app.ui.contacts
 
-import androidx.lifecycle.ViewModelProvider
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.example.app.R
+import android.widget.TextView
+import androidx.fragment.app.Fragment
+import androidx.lifecycle.ViewModelProvider
+import com.example.app.databinding.FragmentContactsBinding
 
 class ContactsFragment : Fragment() {
 
-    companion object {
-        fun newInstance() = ContactsFragment()
-    }
+    private var _binding: FragmentContactsBinding? = null
 
-    private lateinit var viewModel: ContactsViewModel
+    // This property is only valid between onCreateView and
+    // onDestroyView.
+    private val binding get() = _binding!!
 
     override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
+        inflater: LayoutInflater,
+        container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
-        return inflater.inflate(R.layout.fragment_contacts, container, false)
+    ): View {
+        val contactsViewModel =
+            ViewModelProvider(this).get(ContactsViewModel::class.java)
+
+        _binding = FragmentContactsBinding.inflate(inflater, container, false)
+        val root: View = binding.root
+
+        //AQUÍ SE EMPIEZA A PROGRAMAR
+
+        return root
     }
 
-    override fun onActivityCreated(savedInstanceState: Bundle?) {
-        super.onActivityCreated(savedInstanceState)
-        viewModel = ViewModelProvider(this).get(ContactsViewModel::class.java)
-        // TODO: Use the ViewModel
+    override fun onDestroyView() {
+        super.onDestroyView()
+        _binding = null
     }
-
 }
