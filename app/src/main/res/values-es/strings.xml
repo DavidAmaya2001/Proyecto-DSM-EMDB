@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">App</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">EMDB | Tu aplicación de reseñas</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Configuracion</string>
+
+    <string name="menu_home">Inicio</string>
+    <string name="menu_movies">Peliculas</string>
+    <string name="menu_series">Series</string>
+    <string name="menu_account">Cuenta</string>
+    <string name="menu_contacts">Contacto</string>
+
+</resources>
