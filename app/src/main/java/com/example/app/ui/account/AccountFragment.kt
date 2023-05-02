@@ -32,6 +32,8 @@ class AccountFragment : Fragment() {
 
         //AQUÍ SE EMPIEZA A PROGRAMAR
 
+
+
         return root
     }
 
