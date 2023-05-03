@@ -12,4 +12,6 @@
     <color name="secondary">#1F222A</color>
     <color name="primaryGray">#9E9E9E</color>
     <color name="buttonColor">#C1232F</color>
+
+    <color name="buttonShare">#FB0303</color>
 </resources>

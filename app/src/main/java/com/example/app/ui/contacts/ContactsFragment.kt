@@ -18,6 +18,7 @@ import android.net.Uri
 import android.widget.Button
 import android.widget.PopupMenu
 import androidx.navigation.fragment.findNavController
+import com.example.app.ContactEmailActivity
 import com.example.app.R
 
 class ContactsFragment : Fragment() {
@@ -83,7 +84,8 @@ class ContactsFragment : Fragment() {
         }
 
         btnGm.setOnClickListener {
-
+            val intent = Intent(btnGm.context,ContactEmailActivity::class.java)
+            startActivity(intent)
         }
 
         btnCo.setOnClickListener {

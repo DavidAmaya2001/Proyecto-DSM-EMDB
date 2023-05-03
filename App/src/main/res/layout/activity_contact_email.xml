@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/primary"
+    tools:context=".ContactEmailActivity">
+
+    <EditText
+        android:id="@+id/txtrecipient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Recipient email(s)"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/white"
+        android:textColorHint="@color/primaryGray"/>
+
+    <EditText
+        android:id="@+id/txtsubject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Subject"
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:textColorHint="@color/primaryGray"/>
+
+    <EditText
+        android:id="@+id/txtmessageSend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Message"
+        android:minHeight="200dp"
+        android:gravity="start"
+        android:textColor="@color/white"
+        android:textColorHint="@color/primaryGray"/>
+
+    <Button
+        android:id="@+id/btnSendEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send Email"
+        android:layout_gravity="end"/>
+
+</LinearLayout>

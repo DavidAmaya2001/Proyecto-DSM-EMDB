@@ -13,4 +13,10 @@
     <string name="menu_account">Cuenta</string>
     <string name="menu_contacts">Contacto</string>
 
+    // Strings de ContactsActivity
+    <string name="nav_contacts">Seleccione una opción:</string>
+    <string name="btn_share">¡Compartir!</string>
+    <string name="nav_popup">¡Gracias por su preferencia!</string>
+    <string name="content_popup">Puedes contactarnos por medio de nuestras plataformas digitales o a través de mensajes de texto (Tenga en cuenta que los mensajes de texto pueden estar sujetos a cargos de envió según la operadora telefonica).</string>
+
 </resources>

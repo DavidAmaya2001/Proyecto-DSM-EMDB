@@ -12,4 +12,10 @@
     <string name="menu_account">Account</string>
     <string name="menu_contacts">Contacts</string>
 
+    // Strings de ContactsActivity
+    <string name="nav_contacts">Select an option:</string>
+    <string name="btn_share">Share App!</string>
+    <string name="nav_popup">Thanks for your preference!</string>
+    <string name="content_popup">You can contact us through our digital platforms or via text message (keep in mind that the text message may be subject to shipping charges according to the telephone operator).</string>
+
 </resources>
