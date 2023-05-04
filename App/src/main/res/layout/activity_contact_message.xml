@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/primary"
+    android:gravity="center"
+    android:padding="15dp"
+    tools:context=".ContactMessageActivity">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="40dp"
+        app:srcCompat="@drawable/sms" />
+
+    <EditText
+        android:id="@+id/txtPhoneNumber"
+        android:hint="Enter Phone Number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15sp"
+        android:maxLength="12"
+        android:text="@string/support_EMDB"
+        android:textColor="@color/white"
+        android:background="@color/secondary"
+        android:editable="false"
+        android:focusable="false"/>
+
+    <EditText
+        android:id="@+id/txtMessageContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/primaryGray"
+        android:textColor="@color/white"
+        android:hint="@string/message_contact"
+        android:padding="15sp"
+        android:layout_marginTop="10dp"
+        android:inputType="textMultiLine"
+        android:lines="5"
+        android:background="@color/secondary"/>
+
+    <Button
+        android:id="@+id/btnSendSMS"
+        style="@style/Widget.Material3.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="20dp"
+        android:backgroundTint="@color/buttonShare"
+        android:text="@string/btn_sendSMS"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

@@ -4,8 +4,6 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.TextView
-import android.widget.inline.InlineContentView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.example.app.databinding.FragmentContactsBinding
@@ -16,9 +14,8 @@ import android.graphics.Color
 import android.graphics.drawable.ColorDrawable
 import android.net.Uri
 import android.widget.Button
-import android.widget.PopupMenu
-import androidx.navigation.fragment.findNavController
 import com.example.app.ContactEmailActivity
+import com.example.app.ContactMessageActivity
 import com.example.app.R
 
 class ContactsFragment : Fragment() {
@@ -49,7 +46,9 @@ class ContactsFragment : Fragment() {
         val btnTw: Button = root.findViewById(R.id.btnTwitter)
         val btnWa: Button = root.findViewById(R.id.btnWhatsApp)
         val btnGm: Button = root.findViewById(R.id.btnGmail)
-        val btnCo: Button = root.findViewById(R.id.btnMessage)
+        val btnSMS: Button = root.findViewById(R.id.btnSMS)
+        val btnCo: Button = root.findViewById(R.id.btnLink)
+
 
         btn.setOnClickListener {
             val dialogBinding = layoutInflater.inflate(R.layout.popup_info, null)
@@ -85,6 +84,11 @@ class ContactsFragment : Fragment() {
 
         btnGm.setOnClickListener {
             val intent = Intent(btnGm.context,ContactEmailActivity::class.java)
+            startActivity(intent)
+        }
+
+        btnSMS.setOnClickListener {
+            val intent = Intent(btnSMS.context,ContactMessageActivity::class.java)
             startActivity(intent)
         }
 
