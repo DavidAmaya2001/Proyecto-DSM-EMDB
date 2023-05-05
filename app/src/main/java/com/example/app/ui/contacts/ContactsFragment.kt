@@ -47,7 +47,6 @@ class ContactsFragment : Fragment() {
         val btnWa: Button = root.findViewById(R.id.btnWhatsApp)
         val btnGm: Button = root.findViewById(R.id.btnGmail)
         val btnSMS: Button = root.findViewById(R.id.btnSMS)
-        val btnCo: Button = root.findViewById(R.id.btnLink)
 
 
         btn.setOnClickListener {
@@ -92,9 +91,6 @@ class ContactsFragment : Fragment() {
             startActivity(intent)
         }
 
-        btnCo.setOnClickListener {
-
-        }
 
         return root
     }

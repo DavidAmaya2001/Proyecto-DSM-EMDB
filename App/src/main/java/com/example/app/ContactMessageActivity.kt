@@ -7,13 +7,13 @@ import android.telephony.SmsManager
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
-import androidx.annotation.NonNull
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 
 lateinit var txtphone: EditText
 lateinit var txtContent: EditText
 lateinit var btnSend: Button
+
 
 class ContactMessageActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -23,6 +23,9 @@ class ContactMessageActivity : AppCompatActivity() {
         txtphone = findViewById(R.id.txtPhoneNumber)
         txtContent = findViewById(R.id.txtMessageContent)
         btnSend = findViewById(R.id.btnSendSMS)
+        var btncancel = findViewById<Button>(R.id.btnReturnSMS)
+
+
 
         btnSend.setOnClickListener {
             if(ContextCompat.checkSelfPermission(this, android.Manifest.permission.SEND_SMS)== PackageManager.PERMISSION_GRANTED){
@@ -31,6 +34,10 @@ class ContactMessageActivity : AppCompatActivity() {
             else{
                 ActivityCompat.requestPermissions(this, arrayOf(android.Manifest.permission.SEND_SMS), 100)
             }
+        }
+
+        btncancel.setOnClickListener {
+            finish()
         }
     }
 

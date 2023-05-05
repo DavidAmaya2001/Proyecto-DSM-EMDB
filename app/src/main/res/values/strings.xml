@@ -18,9 +18,14 @@
     <string name="nav_popup">Thanks for your preference!</string>
     <string name="content_popup">You can contact us through our digital platforms or via text message (keep in mind that the text message may be subject to shipping charges according to the telephone operator).</string>
     <string name="btn_sms_name">Message</string>
+    <string name="btn_cancel">Cancel</string>
        // Strings de ContactMessage
     <string name="support_EMDB">EMDB Support</string>
     <string name="message_contact">Enter Message</string>
     <string name="btn_sendSMS">Send SMS</string>
+       // Strings de ContactEmail
+    <string name="subject_content">Subject</string>
+    <string name="message_content">Message</string>
+    <string name="send_email">Send Email</string>
 
 </resources>

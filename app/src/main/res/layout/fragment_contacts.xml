@@ -201,19 +201,6 @@
 
             </LinearLayout>
 
-            <Button
-                android:id="@+id/btnLink"
-                style="@style/Widget.Material3.Button"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="20dp"
-                android:layout_marginTop="40dp"
-                android:layout_marginRight="20dp"
-                android:backgroundTint="@color/buttonShare"
-                android:text="@string/btn_share"
-                android:textAlignment="center"
-                android:textSize="15sp"
-                android:textStyle="bold" />
         </LinearLayout>
     </LinearLayout>
 </FrameLayout>

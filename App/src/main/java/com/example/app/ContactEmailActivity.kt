@@ -14,16 +14,20 @@ class ContactEmailActivity : AppCompatActivity() {
         setContentView(R.layout.activity_contact_email)
 
         val btnSendEmail = findViewById<Button>(R.id.btnSendEmail)
-        val txtrecipient = findViewById<EditText>(R.id.txtrecipient)
+        val txtrecipient = findViewById<EditText>(R.id.txtrecipient) // Se puede usar en caso de proporcionar correos distintos
         val txtsubject = findViewById<EditText>(R.id.txtsubject)
         val txtmessage = findViewById<EditText>(R.id.txtmessageSend)
+        val btncancel = findViewById<Button>(R.id.btnReturn)
 
         btnSendEmail.setOnClickListener {
-            val recipient = txtrecipient.text.toString().trim()
+            val recipient = "emdbsoporte@gmail.com"
             val subject = txtsubject.text.toString().trim()
             val message = txtmessage.text.toString().trim()
 
             sendEmail(recipient, subject, message)
+        }
+        btncancel.setOnClickListener {
+            finish()
         }
     }
 
@@ -31,7 +35,7 @@ class ContactEmailActivity : AppCompatActivity() {
         val messageIntent = Intent(Intent.ACTION_SEND)
         messageIntent.data = Uri.parse("mailto:")
         messageIntent.type = "text/plain"
-        // EXTRA_EMAIL se trabaja con Array debido a que se pueden agregar varios correos separados por coma
+        // EXTRA_EMAIL se trabaja con Array debido a que se pueden agregar varios correos separados por coma (en este caso solo se utilizará la de soporte)
         messageIntent.putExtra(Intent.EXTRA_EMAIL, arrayOf(recipient))
         messageIntent.putExtra(Intent.EXTRA_SUBJECT, subject)
         messageIntent.putExtra(Intent.EXTRA_TEXT,message)

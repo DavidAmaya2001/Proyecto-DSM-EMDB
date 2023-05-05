@@ -15,6 +15,7 @@
         android:id="@+id/imageView6"
         android:layout_width="80dp"
         android:layout_height="80dp"
+        android:layout_marginTop="40dp"
         android:layout_marginBottom="40dp"
         app:srcCompat="@drawable/sms" />
 
@@ -44,18 +45,39 @@
         android:lines="5"
         android:background="@color/secondary"/>
 
-    <Button
-        android:id="@+id/btnSendSMS"
-        style="@style/Widget.Material3.Button"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginRight="20dp"
-        android:backgroundTint="@color/buttonShare"
-        android:text="@string/btn_sendSMS"
-        android:textAlignment="center"
-        android:textSize="15sp"
-        android:textStyle="bold" />
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnReturnSMS"
+            style="@style/Widget.Material3.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/buttonShare"
+            android:text="@string/btn_cancel"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnSendSMS"
+            style="@style/Widget.Material3.Button"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="20dp"
+            android:backgroundTint="@color/buttonShare"
+            android:text="@string/btn_sendSMS"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    </LinearLayout>
 
 </LinearLayout>
