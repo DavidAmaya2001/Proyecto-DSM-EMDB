@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Series">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="185dp">
+        <ImageView
+            android:id="@+id/headerSeries"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:contentDescription="@string/background_header_description_s"
+            android:scaleType="fitXY"
+            android:src="@mipmap/series_background"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/headerText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:fontFamily="monospace"
+            android:background="@color/buttonColor"
+            android:text="@string/header_series"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/secondary">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:gravity="center">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="250dp"
+                    android:contentDescription="@string/movies_title"
+                    android:src="@mipmap/tlou"
+                    android:layout_weight="1"
+                    />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="250dp"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/series_title"
+                    android:src="@mipmap/mandalorian" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="250dp"
+                    android:contentDescription="@string/movies_title"
+                    android:src="@mipmap/theboys"
+                    android:layout_weight="1"
+                    />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="250dp"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/series_title"
+                    android:paddingHorizontal="2dp"
+                    android:src="@mipmap/loki" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="250dp"
+                    android:contentDescription="@string/movies_title"
+                    android:src="@mipmap/invencible"
+                    android:layout_weight="1"
+                    />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="250dp"
+                    android:layout_weight="1"
+                    android:contentDescription="@string/series_title"
+                    android:src="@mipmap/peacemaker" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,286 @@
+[
+    {
+        "merged": "com.example.emdb.app-merged_res-35:/drawable_facebook.png.flat",
+        "source": "com.example.emdb.app-main-37:/drawable/facebook.png"
+    },
+    {
+        "merged": "com.example.emdb.app-merged_res-35:/drawable_whatsapp.png.flat",
+        "source": "com.example.emdb.app-main-37:/drawable/whatsapp.png"
+    },
+    {
+        "merged": "com.example.emdb.app-merged_res-35:/mipmap_scream.png.flat",
+        "source": "com.example.emdb.app-main-37:/mipmap/scream.png"
+    },
+    {
+        "merged": "com.example.emdb.app-merged_res-35:/mipmap_peacemaker.png.flat",
+        "source": "com.example.emdb.app-main-37:/mipmap/peacemaker.png"
+    },
+    {
+        "merged": "com.example.emdb.app-merged_res-35:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.emdb.app-main-37:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.emdb.app-merged_res-35:/mipmap_background_home.png.flat",
+        "source": "com.example.emdb.app-main-37:/mipmap/background_home.png"
+    },
+    {
+        "merged": "com.example.emdb.app-merged_res-35:/drawable_baseline_arrow_back_ios_new_24.xml.flat",
+        "source": "com.example.emdb.app-main-37:/drawable/baseline_arrow_back_ios_new_24.xml"
+    },
+    {
+        "merged": "com.example.emdb.app-merged_res-35:/mipmap_guardians.png.flat",
+        "source": "com.example.emdb.app-main-37:/mipmap/guardians.png"
+    },
+    {
+        "merged": "com.example.emdb.app-merged_res-35:/drawable_rounded_txt.xml.flat",
+        "source": "com.example.emdb.app-main-37:/drawable/rounded_txt.xml"
+    },
+    {
+        "merged": "com.example.emdb.app-merged_res-35:/layout_popup_info.xml.flat",
+        "source": "com.example.emdb.app-main-37:/layout/popup_info.xml"
+    },
+    {
+        "merged": "com.example.emdb.app-merged_res-35:/layout_activity_login_screen.xml.flat",
+        "source": "com.example.emdb.app-main-37:/layout/activity_login_screen.xml"
+    },
+    {
+        "merged": "com.example.emdb.app-merged_res-35:/drawable_splashscreen.xml.flat",
+        "source": "com.example.emdb.app-main-37:/drawable/splashscreen.xml"
+    },
+    {
+        "merged": "com.example.emdb.app-merged_res-35:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.emdb.app-main-37:/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.emdb.app-merged_res-35:/drawable_google.png.flat",
+        "source": "com.example.emdb.app-main-37:/drawable/google.png"
+    },
+    {
+        "merged": "com.example.emdb.app-merged_res-35:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.emdb.app-main-37:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.emdb.app-merged_res-35:/mipmap_loki.png.flat",
+        "source": "com.example.emdb.app-main-37:/mipmap/loki.png"
+    },
+    {
+        "merged": "com.example.emdb.app-merged_res-35:/drawable_rounded_btn.xml.flat",
+        "source": "com.example.emdb.app-main-37:/drawable/rounded_btn.xml"
+    },
+    {
+        "merged": "com.example.emdb.app-merged_res-35:/mipmap_mysplash.png.flat",
+        "source": "com.example.emdb.app-main-37:/mipmap/mysplash.png"
+    },
+    {
+        "merged": "com.example.emdb.app-merged_res-35:/mipmap_tlou_home.png.flat",
+        "source": "com.example.emdb.app-main-37:/mipmap/tlou_home.png"
+    },
+    {
+        "merged": "com.example.emdb.app-merged_res-35:/layout_activity_register_screen.xml.flat",
+        "source": "com.example.emdb.app-main-37:/layout/activity_register_screen.xml"
+    },
+    {
+        "merged": "com.example.emdb.app-merged_res-35:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.example.emdb.app-main-37:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.emdb.app-merged_res-35:/mipmap_spiderman.png.flat",
+        "source": "com.example.emdb.app-main-37:/mipmap/spiderman.png"
+    },
+    {
+        "merged": "com.example.emdb.app-merged_res-35:/layout_activity_contact.xml.flat",
+        "source": "com.example.emdb.app-main-37:/layout/activity_contact.xml"
+    },
+    {
+        "merged": "com.example.emdb.app-merged_res-35:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.emdb.app-main-37:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.emdb.app-merged_res-35:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.emdb.app-main-37:/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.emdb.app-merged_res-35:/drawable_logosb.png.flat",
+        "source": "com.example.emdb.app-main-37:/drawable/logosb.png"
+    },
+    {
+        "merged": "com.example.emdb.app-merged_res-35:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.emdb.app-main-37:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.emdb.app-merged_res-35:/mipmap_ff.png.flat",
+        "source": "com.example.emdb.app-main-37:/mipmap/ff.png"
+    },
+    {
+        "merged": "com.example.emdb.app-merged_res-35:/mipmap_boys.png.flat",
+        "source": "com.example.emdb.app-main-37:/mipmap/boys.png"
+    },
+    {
+        "merged": "com.example.emdb.app-merged_res-35:/layout_nav_header_main.xml.flat",
+        "source": "com.example.emdb.app-main-37:/layout/nav_header_main.xml"
+    },
+    {
+        "merged": "com.example.emdb.app-merged_res-35:/mipmap_mandalorian.png.flat",
+        "source": "com.example.emdb.app-main-37:/mipmap/mandalorian.png"
+    },
+    {
+        "merged": "com.example.emdb.app-merged_res-35:/mipmap_you_home.png.flat",
+        "source": "com.example.emdb.app-main-37:/mipmap/you_home.png"
+    },
+    {
+        "merged": "com.example.emdb.app-merged_res-35:/menu_activity_main_emdb.xml.flat",
+        "source": "com.example.emdb.app-main-37:/menu/activity_main_emdb.xml"
+    },
+    {
+        "merged": "com.example.emdb.app-merged_res-35:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.emdb.app-main-37:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.emdb.app-merged_res-35:/mipmap_series_background.jpg.flat",
+        "source": "com.example.emdb.app-main-37:/mipmap/series_background.jpg"
+    },
+    {
+        "merged": "com.example.emdb.app-merged_res-35:/drawable_telegram.png.flat",
+        "source": "com.example.emdb.app-main-37:/drawable/telegram.png"
+    },
+    {
+        "merged": "com.example.emdb.app-merged_res-35:/drawable_user_icon.xml.flat",
+        "source": "com.example.emdb.app-main-37:/drawable/user_icon.xml"
+    },
+    {
+        "merged": "com.example.emdb.app-merged_res-35:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.example.emdb.app-main-37:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.emdb.app-merged_res-35:/mipmap_tlou.png.flat",
+        "source": "com.example.emdb.app-main-37:/mipmap/tlou.png"
+    },
+    {
+        "merged": "com.example.emdb.app-merged_res-35:/mipmap_mario.png.flat",
+        "source": "com.example.emdb.app-main-37:/mipmap/mario.png"
+    },
+    {
+        "merged": "com.example.emdb.app-merged_res-35:/layout_activity_peliculas.xml.flat",
+        "source": "com.example.emdb.app-main-37:/layout/activity_peliculas.xml"
+    },
+    {
+        "merged": "com.example.emdb.app-merged_res-35:/drawable_lock_icon.xml.flat",
+        "source": "com.example.emdb.app-main-37:/drawable/lock_icon.xml"
+    },
+    {
+        "merged": "com.example.emdb.app-merged_res-35:/layout_activity_series.xml.flat",
+        "source": "com.example.emdb.app-main-37:/layout/activity_series.xml"
+    },
+    {
+        "merged": "com.example.emdb.app-merged_res-35:/mipmap_spiderman_home.png.flat",
+        "source": "com.example.emdb.app-main-37:/mipmap/spiderman_home.png"
+    },
+    {
+        "merged": "com.example.emdb.app-merged_res-35:/mipmap_mario_home.png.flat",
+        "source": "com.example.emdb.app-main-37:/mipmap/mario_home.png"
+    },
+    {
+        "merged": "com.example.emdb.app-merged_res-35:/drawable_infoimage.png.flat",
+        "source": "com.example.emdb.app-main-37:/drawable/infoimage.png"
+    },
+    {
+        "merged": "com.example.emdb.app-merged_res-35:/mipmap_invencible.png.flat",
+        "source": "com.example.emdb.app-main-37:/mipmap/invencible.png"
+    },
+    {
+        "merged": "com.example.emdb.app-merged_res-35:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.emdb.app-main-37:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.emdb.app-merged_res-35:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.example.emdb.app-main-37:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.emdb.app-merged_res-35:/drawable_twitter.png.flat",
+        "source": "com.example.emdb.app-main-37:/drawable/twitter.png"
+    },
+    {
+        "merged": "com.example.emdb.app-merged_res-35:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.emdb.app-main-37:/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.emdb.app-merged_res-35:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.example.emdb.app-main-37:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.emdb.app-merged_res-35:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.emdb.app-main-37:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.emdb.app-merged_res-35:/xml_backup_rules.xml.flat",
+        "source": "com.example.emdb.app-main-37:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.emdb.app-merged_res-35:/mipmap_antman.png.flat",
+        "source": "com.example.emdb.app-main-37:/mipmap/antman.png"
+    },
+    {
+        "merged": "com.example.emdb.app-merged_res-35:/drawable_gmail.png.flat",
+        "source": "com.example.emdb.app-main-37:/drawable/gmail.png"
+    },
+    {
+        "merged": "com.example.emdb.app-merged_res-35:/mipmap_logo.png.flat",
+        "source": "com.example.emdb.app-main-37:/mipmap/logo.png"
+    },
+    {
+        "merged": "com.example.emdb.app-merged_res-35:/mipmap_icono.png.flat",
+        "source": "com.example.emdb.app-main-37:/mipmap/icono.png"
+    },
+    {
+        "merged": "com.example.emdb.app-merged_res-35:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.example.emdb.app-main-37:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.emdb.app-merged_res-35:/mipmap_background_emdb.jpg.flat",
+        "source": "com.example.emdb.app-main-37:/mipmap/background_emdb.jpg"
+    },
+    {
+        "merged": "com.example.emdb.app-merged_res-35:/layout_app_bar_main.xml.flat",
+        "source": "com.example.emdb.app-main-37:/layout/app_bar_main.xml"
+    },
+    {
+        "merged": "com.example.emdb.app-merged_res-35:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.emdb.app-main-37:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.emdb.app-merged_res-35:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.emdb.app-pngs-30:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.emdb.app-merged_res-35:/layout_activity_main.xml.flat",
+        "source": "com.example.emdb.app-main-37:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.emdb.app-merged_res-35:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.example.emdb.app-main-37:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.emdb.app-merged_res-35:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.example.emdb.app-main-37:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.emdb.app-merged_res-35:/drawable_face_icon.xml.flat",
+        "source": "com.example.emdb.app-main-37:/drawable/face_icon.xml"
+    },
+    {
+        "merged": "com.example.emdb.app-merged_res-35:/drawable_email_icon.xml.flat",
+        "source": "com.example.emdb.app-main-37:/drawable/email_icon.xml"
+    },
+    {
+        "merged": "com.example.emdb.app-merged_res-35:/drawable_circlebackground.xml.flat",
+        "source": "com.example.emdb.app-main-37:/drawable/circlebackground.xml"
+    },
+    {
+        "merged": "com.example.emdb.app-merged_res-35:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.emdb.app-main-37:/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.emdb.app-merged_res-35:/mipmap_theboys.png.flat",
+        "source": "com.example.emdb.app-main-37:/mipmap/theboys.png"
+    }
+]

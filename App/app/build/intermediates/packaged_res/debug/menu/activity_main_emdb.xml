@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+            android:id="@+id/nav_item_one"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/nav_item_two"
+            android:title="@string/movies_link" />
+        <item
+            android:id="@+id/nav_item_three"
+            android:title="@string/series_link" />
+    </group>
+
+    <item android:title="@string/second_info">
+        <menu>
+            <item
+                android:id="@+id/nav_item_six"
+                android:title="@string/Log_In" />
+            <item
+                android:id="@+id/nav_item_seven"
+                android:title="@string/contacts" />
+        </menu>
+    </item>
+</menu>
