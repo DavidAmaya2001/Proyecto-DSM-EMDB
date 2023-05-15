@@ -1,4 +1,4 @@
-#Mon May 15 16:18:56 CST 2023
+#Mon May 15 16:38:53 CST 2023
 base.0=F\:\\JustKiru\\Documents\\Universidad\\Informatica\\DSM\\Proyecto-DSM-EMDB\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=F\:\\JustKiru\\Documents\\Universidad\\Informatica\\DSM\\Proyecto-DSM-EMDB\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.2=F\:\\JustKiru\\Documents\\Universidad\\Informatica\\DSM\\Proyecto-DSM-EMDB\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex

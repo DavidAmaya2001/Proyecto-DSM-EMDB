@@ -39,7 +39,7 @@
 23-->[androidx.core:core:1.9.0] C:\Users\JustKiru\.gradle\caches\transforms-3\0ef3158883ebb87595d3ee0508a06edc\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
 24
 25    <application
-25-->F:\JustKiru\Documents\Universidad\Informatica\DSM\Proyecto-DSM-EMDB\app\src\main\AndroidManifest.xml:12:5-51:19
+25-->F:\JustKiru\Documents\Universidad\Informatica\DSM\Proyecto-DSM-EMDB\app\src\main\AndroidManifest.xml:12:5-52:19
 26        android:allowBackup="true"
 26-->F:\JustKiru\Documents\Universidad\Informatica\DSM\Proyecto-DSM-EMDB\app\src\main\AndroidManifest.xml:13:9-35
 27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -71,50 +71,50 @@
 41            android:exported="false" />
 41-->F:\JustKiru\Documents\Universidad\Informatica\DSM\Proyecto-DSM-EMDB\app\src\main\AndroidManifest.xml:26:13-37
 42        <activity
-42-->F:\JustKiru\Documents\Universidad\Informatica\DSM\Proyecto-DSM-EMDB\app\src\main\AndroidManifest.xml:27:9-35:20
+42-->F:\JustKiru\Documents\Universidad\Informatica\DSM\Proyecto-DSM-EMDB\app\src\main\AndroidManifest.xml:27:9-36:20
 43            android:name="com.example.app.LoginScreen"
 43-->F:\JustKiru\Documents\Universidad\Informatica\DSM\Proyecto-DSM-EMDB\app\src\main\AndroidManifest.xml:28:13-40
-44            android:exported="true" >
+44            android:exported="true"
 44-->F:\JustKiru\Documents\Universidad\Informatica\DSM\Proyecto-DSM-EMDB\app\src\main\AndroidManifest.xml:29:13-36
-45            <intent-filter>
-45-->F:\JustKiru\Documents\Universidad\Informatica\DSM\Proyecto-DSM-EMDB\app\src\main\AndroidManifest.xml:30:13-34:29
-46                <action android:name="android.intent.action.MAIN" />
-46-->F:\JustKiru\Documents\Universidad\Informatica\DSM\Proyecto-DSM-EMDB\app\src\main\AndroidManifest.xml:31:17-69
-46-->F:\JustKiru\Documents\Universidad\Informatica\DSM\Proyecto-DSM-EMDB\app\src\main\AndroidManifest.xml:31:25-66
-47
-48                <category android:name="android.intent.category.LAUNCHER" />
-48-->F:\JustKiru\Documents\Universidad\Informatica\DSM\Proyecto-DSM-EMDB\app\src\main\AndroidManifest.xml:33:17-77
-48-->F:\JustKiru\Documents\Universidad\Informatica\DSM\Proyecto-DSM-EMDB\app\src\main\AndroidManifest.xml:33:27-74
-49            </intent-filter>
-50        </activity>
-51        <activity
-51-->F:\JustKiru\Documents\Universidad\Informatica\DSM\Proyecto-DSM-EMDB\app\src\main\AndroidManifest.xml:36:9-38:40
-52            android:name="com.example.app.ContactMessageActivity"
-52-->F:\JustKiru\Documents\Universidad\Informatica\DSM\Proyecto-DSM-EMDB\app\src\main\AndroidManifest.xml:37:13-51
-53            android:exported="false" />
-53-->F:\JustKiru\Documents\Universidad\Informatica\DSM\Proyecto-DSM-EMDB\app\src\main\AndroidManifest.xml:38:13-37
-54        <activity
-54-->F:\JustKiru\Documents\Universidad\Informatica\DSM\Proyecto-DSM-EMDB\app\src\main\AndroidManifest.xml:39:9-41:40
-55            android:name="com.example.app.ContactEmailActivity"
-55-->F:\JustKiru\Documents\Universidad\Informatica\DSM\Proyecto-DSM-EMDB\app\src\main\AndroidManifest.xml:40:13-49
-56            android:exported="false" />
-56-->F:\JustKiru\Documents\Universidad\Informatica\DSM\Proyecto-DSM-EMDB\app\src\main\AndroidManifest.xml:41:13-37
-57        <activity
-57-->F:\JustKiru\Documents\Universidad\Informatica\DSM\Proyecto-DSM-EMDB\app\src\main\AndroidManifest.xml:42:9-50:20
-58            android:name="com.example.app.MainActivity"
-58-->F:\JustKiru\Documents\Universidad\Informatica\DSM\Proyecto-DSM-EMDB\app\src\main\AndroidManifest.xml:43:13-41
-59            android:exported="false"
-59-->F:\JustKiru\Documents\Universidad\Informatica\DSM\Proyecto-DSM-EMDB\app\src\main\AndroidManifest.xml:44:13-37
-60            android:label="@string/app_name"
-60-->F:\JustKiru\Documents\Universidad\Informatica\DSM\Proyecto-DSM-EMDB\app\src\main\AndroidManifest.xml:45:13-45
-61            android:theme="@style/splashTheme" >
-61-->F:\JustKiru\Documents\Universidad\Informatica\DSM\Proyecto-DSM-EMDB\app\src\main\AndroidManifest.xml:46:13-47
+45            android:theme="@style/splashTheme" >
+45-->F:\JustKiru\Documents\Universidad\Informatica\DSM\Proyecto-DSM-EMDB\app\src\main\AndroidManifest.xml:30:13-47
+46            <intent-filter>
+46-->F:\JustKiru\Documents\Universidad\Informatica\DSM\Proyecto-DSM-EMDB\app\src\main\AndroidManifest.xml:31:13-35:29
+47                <action android:name="android.intent.action.MAIN" />
+47-->F:\JustKiru\Documents\Universidad\Informatica\DSM\Proyecto-DSM-EMDB\app\src\main\AndroidManifest.xml:32:17-69
+47-->F:\JustKiru\Documents\Universidad\Informatica\DSM\Proyecto-DSM-EMDB\app\src\main\AndroidManifest.xml:32:25-66
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->F:\JustKiru\Documents\Universidad\Informatica\DSM\Proyecto-DSM-EMDB\app\src\main\AndroidManifest.xml:34:17-77
+49-->F:\JustKiru\Documents\Universidad\Informatica\DSM\Proyecto-DSM-EMDB\app\src\main\AndroidManifest.xml:34:27-74
+50            </intent-filter>
+51        </activity>
+52        <activity
+52-->F:\JustKiru\Documents\Universidad\Informatica\DSM\Proyecto-DSM-EMDB\app\src\main\AndroidManifest.xml:37:9-39:40
+53            android:name="com.example.app.ContactMessageActivity"
+53-->F:\JustKiru\Documents\Universidad\Informatica\DSM\Proyecto-DSM-EMDB\app\src\main\AndroidManifest.xml:38:13-51
+54            android:exported="false" />
+54-->F:\JustKiru\Documents\Universidad\Informatica\DSM\Proyecto-DSM-EMDB\app\src\main\AndroidManifest.xml:39:13-37
+55        <activity
+55-->F:\JustKiru\Documents\Universidad\Informatica\DSM\Proyecto-DSM-EMDB\app\src\main\AndroidManifest.xml:40:9-42:40
+56            android:name="com.example.app.ContactEmailActivity"
+56-->F:\JustKiru\Documents\Universidad\Informatica\DSM\Proyecto-DSM-EMDB\app\src\main\AndroidManifest.xml:41:13-49
+57            android:exported="false" />
+57-->F:\JustKiru\Documents\Universidad\Informatica\DSM\Proyecto-DSM-EMDB\app\src\main\AndroidManifest.xml:42:13-37
+58        <activity
+58-->F:\JustKiru\Documents\Universidad\Informatica\DSM\Proyecto-DSM-EMDB\app\src\main\AndroidManifest.xml:43:9-51:20
+59            android:name="com.example.app.MainActivity"
+59-->F:\JustKiru\Documents\Universidad\Informatica\DSM\Proyecto-DSM-EMDB\app\src\main\AndroidManifest.xml:44:13-41
+60            android:exported="false"
+60-->F:\JustKiru\Documents\Universidad\Informatica\DSM\Proyecto-DSM-EMDB\app\src\main\AndroidManifest.xml:45:13-37
+61            android:label="@string/app_name" >
+61-->F:\JustKiru\Documents\Universidad\Informatica\DSM\Proyecto-DSM-EMDB\app\src\main\AndroidManifest.xml:46:13-45
 62            <meta-data
-62-->F:\JustKiru\Documents\Universidad\Informatica\DSM\Proyecto-DSM-EMDB\app\src\main\AndroidManifest.xml:47:13-49:36
+62-->F:\JustKiru\Documents\Universidad\Informatica\DSM\Proyecto-DSM-EMDB\app\src\main\AndroidManifest.xml:48:13-50:36
 63                android:name="android.app.lib_name"
-63-->F:\JustKiru\Documents\Universidad\Informatica\DSM\Proyecto-DSM-EMDB\app\src\main\AndroidManifest.xml:48:17-52
+63-->F:\JustKiru\Documents\Universidad\Informatica\DSM\Proyecto-DSM-EMDB\app\src\main\AndroidManifest.xml:49:17-52
 64                android:value="" />
-64-->F:\JustKiru\Documents\Universidad\Informatica\DSM\Proyecto-DSM-EMDB\app\src\main\AndroidManifest.xml:49:17-33
+64-->F:\JustKiru\Documents\Universidad\Informatica\DSM\Proyecto-DSM-EMDB\app\src\main\AndroidManifest.xml:50:17-33
 65        </activity>
 66        <activity
 66-->[com.google.android.gms:play-services-auth:20.1.0] C:\Users\JustKiru\.gradle\caches\transforms-3\2ddda907515b47b3c9ddcfdffdfc5e85\transformed\play-services-auth-20.1.0\AndroidManifest.xml:23:9-27:75

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ui.series.SeriesFragment"
+    android:layout_margin="0dp"
+    android:background="@color/primary">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:layout_marginVertical="20dp"
+        >
+        <TextView
+            android:id="@+id/textview_movies"
+            android:layout_width="236dp"
+            android:layout_height="wrap_content"
+            android:paddingVertical="5dp"
+            android:layout_toRightOf="@+id/movies_img"
+            android:layout_marginStart="16dp"
+            android:textSize="18sp"
+            android:text="@string/loading_movies"
+            android:textColor="@color/white"/>
+
+        <ImageView
+            android:id="@+id/movies_img"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:paddingVertical="5dp"
+            />
+    </RelativeLayout>
+
+</ScrollView>
+
+
