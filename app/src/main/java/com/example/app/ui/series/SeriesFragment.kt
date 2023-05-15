@@ -14,8 +14,11 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
+import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 import com.example.app.R
 import com.example.app.databinding.FragmentContactsBinding
 import com.example.app.databinding.FragmentSeriesBinding
@@ -23,9 +26,6 @@ import com.example.app.ui.contacts.ContactsViewModel
 import retrofit2.*
 
 class SeriesFragment : Fragment() {
-
-
-
 
     private var _binding: FragmentSeriesBinding? = null
 
@@ -54,7 +54,9 @@ class SeriesFragment : Fragment() {
 
         //AQUÍ SE EMPIEZA A PROGRAMAR
 
-        val nameSerie = "Lost"
+
+
+        val nameSerie = "WandaVision"
         val lang = "es"
 
         apiService.searchSeries(lang, nameSerie).enqueue(object : Callback<SearchResponseSeries> {
@@ -63,27 +65,27 @@ class SeriesFragment : Fragment() {
                     val responseBody = response.body()
 
                     if (responseBody != null) {
-                        val resultTextView = root.findViewById<TextView>(R.id.result_text_view)
+                        val resultTextView = root.findViewById<TextView>(R.id.textview_series)
+
                         var resultString = ""
 
                         for (serie in responseBody.results) {
-                            resultString += "ID: ${serie.id}\n"
-                            resultString += "Result Type: ${serie.resultType}\n"
-                            resultString += "Title: ${serie.title}\n"
+                            /**resultString += "ID: ${serie.id}\n"**/
+                            resultString += "Category: ${serie.resultType}\n"
+                            resultString += "Name: ${serie.title}\n"
                             resultString += "Description: ${serie.description}\n"
 
-
                             // Use Picasso to load and display the image from the URL
-                            val url = "${serie.image}"
 
                             if (!serie.image.isNullOrEmpty()) {
                                 Log.e("SeriesFragment", "${serie.image}")
-                                val imageView = root.findViewById<ImageView>(R.id.imageView1)
+                                val imageView = root.findViewById<ImageView>(R.id.series_img)
                                 Picasso.get().load(serie.image).resize(900,900).into(imageView)
                             }
 
                             resultString += "\n\n"
                         }
+
                         resultTextView.text = resultString
                     }
                 }
@@ -105,13 +107,13 @@ class SeriesFragment : Fragment() {
 
 interface ApiService {
     @GET("/en/API/SearchMovie/{apiKey}/{expression}")
-    fun searchMovies(@Path("expression") expression: String, @Path("apiKey") apiKey: String = "k_09b1f803"): Call<SearchResponse>
+    fun searchMovies(@Path("expression") expression: String, @Path("apiKey") apiKey: String = "k_1jxl10d9"): Call<SearchResponse>
 
     @GET("/{lang}/API/Title/{apiKey}/{id}/Trailer")
     fun getMovieDetails(
         @Path("id") id: String,
         @Path("lang") lang: String?,
-        @Path("apiKey") apiKey: String = "k_09b1f803",
+        @Path("apiKey") apiKey: String = "k_1jxl10d9",
         @Query("options") options: String = "Full"
     ): Call<TitleResponse>
 
@@ -120,7 +122,7 @@ interface ApiService {
     fun searchSeries(
         @Path("lang") lang: String?,
         @Path("expression") expression: String?,
-        @Path("apiKey") apiKey: String? = "k_09b1f803"
+        @Path("apiKey") apiKey: String? = "k_1jxl10d9"
     ): Call<SearchResponseSeries>
 
     @GET("/es/API/AdvancedSearch/{apiKey}/")
@@ -134,7 +136,7 @@ interface ApiService {
     fun getTrailerUrl(
         @Path("id") id: String,
         @Path("lang") lang: String? = "es",
-        @Path("apiKey") apiKey: String = "k_09b1f803"
+        @Path("apiKey") apiKey: String = "k_1jxl10d9"
 
     ): Call<TrailerYT>
 

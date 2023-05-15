@@ -2,36 +2,31 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".ui.series.SeriesFragment">
+    android:layout_height="wrap_content"
+    tools:context=".ui.series.SeriesFragment"
+    android:layout_margin="5dp">
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:layout_marginVertical="5dp"
+        >
         <TextView
-            android:id="@+id/result_text_view"
-            android:layout_width="match_parent"
+            android:id="@+id/textview_series"
+            android:layout_width="236dp"
             android:layout_height="wrap_content"
-            android:padding="16dp"
-            android:text="Search results will be displayed here"
-            android:textSize="18sp" />
-
-        <VideoView
-            android:id="@+id/movie_video_view"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:paddingVertical="5dp"
+            android:layout_toRightOf="@+id/series_img"
+            android:layout_marginStart="16dp"
+            android:textSize="18sp"
+            android:text="@string/series_status"/>
 
         <ImageView
-            android:id="@+id/imageView1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/result_text_view"
-            android:adjustViewBounds="true"
-            android:scaleType="fitCenter" />
-
-
-
+            android:id="@+id/series_img"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:paddingVertical="5dp"
+            />
     </RelativeLayout>
-
 </ScrollView>

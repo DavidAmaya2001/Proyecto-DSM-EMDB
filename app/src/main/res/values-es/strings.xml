@@ -28,6 +28,10 @@
     <string name="subject_content">Asunto</string>
     <string name="message_content">Mensaje</string>
     <string name="send_email">Enviar Correo</string>
+    //Strings de series
+    <string name="series_status">Cargando el listado...</string>
+    <string name="series_name">Nombre:</string>
+    <string name="series_descp">Descripción:</string>
 
 
 </resources>

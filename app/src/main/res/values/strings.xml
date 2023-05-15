@@ -27,5 +27,9 @@
     <string name="subject_content">Subject</string>
     <string name="message_content">Message</string>
     <string name="send_email">Send Email</string>
+    //Strings de Series
+    <string name="series_status">Loading Series...</string>
+    <string name="series_name">Name:</string>
+    <string name="series_descp">Description:</string>
 
 </resources>
