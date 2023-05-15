@@ -28,6 +28,7 @@
     <string name="subject_content">Asunto</string>
     <string name="message_content">Mensaje</string>
     <string name="send_email">Enviar Correo</string>
+    <string name="title_activity_login">Login</string>
 
 
 </resources>
