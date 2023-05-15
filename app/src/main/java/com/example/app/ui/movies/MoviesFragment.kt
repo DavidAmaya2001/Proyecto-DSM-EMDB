@@ -13,6 +13,11 @@ import androidx.appcompat.app.AppCompatActivity
 import android.util.Log
 import android.webkit.WebView
 import android.widget.ImageView
+import android.widget.RelativeLayout
+import android.widget.Toast
+import android.widget.inline.InlineContentView
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 import com.example.app.R
 
 import com.google.gson.Gson
@@ -28,67 +33,80 @@ import retrofit2.http.Path
 import retrofit2.http.Query
 
 
+
 class MoviesFragment : Fragment() {
 
-    private var _binding: FragmentMoviesBinding? = null
+    private var _binding: FragmentMoviesBinding? = null                 //Original del Fragment
 
     // This property is only valid between onCreateView and
     // onDestroyView.
-    private val binding get() = _binding!!
+    private val binding get() = _binding!!                             // Original del Fragment
 
 
-    private val retrofit = Retrofit.Builder()
+   // Aqui va lo de retrofit
+
+      private val retrofit = Retrofit.Builder()
         .baseUrl("https://imdb-api.com")
         .addConverterFactory(GsonConverterFactory.create())
         .build()
 
-    private val apiService = retrofit.create(ApiService::class.java)
+    private val apiService = retrofit.create(APIService::class.java)
+
+    // Aqui va lo de retrofit
 
 
-    override fun onCreateView(
+    override fun onCreateView(                                         // Original del Fragment
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View {
+    ): View {                                                          // Original del Fragment
+
+
+
         val moviesViewModel =
             ViewModelProvider(this).get(MoviesViewModel::class.java)
 
         _binding = FragmentMoviesBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
+
         //AQUÍ SE EMPIEZA A PROGRAMAR
+
 
         //Para obtener resultados de una pelicula con el nombre que se busca
 
+        //Aqui va el api
 
-        apiService.getMostPopularMovies()
-            .enqueue(object : Callback<ApiService.MostPopularMoviesResponse> {
+        apiService.getMostPopularMovies().enqueue(object : Callback<APIService.MoviesResponse> {
                 override fun onResponse(
-                    call: Call<ApiService.MostPopularMoviesResponse>,
-                    response: Response<ApiService.MostPopularMoviesResponse>
+                    call: Call<APIService.MoviesResponse>,
+                    response: Response<APIService.MoviesResponse>
                 ) {
                     if (response.isSuccessful) {
                         val responseBody = response.body()
 
                         if (responseBody != null) {
-                            val resultTextView = root.findViewById<TextView>(R.id.result_text_view)
+                            val resultTextView = root.findViewById<TextView>(R.id.textview_movies)
                             var resultString = ""
+
+
                             for (movie in responseBody.items) {
-                                resultString += "ID: ${movie.id}\n"
-                                resultString += "Title: ${movie.title}\n"
-                                resultString += "Movie: ${movie.image}\n"
 
                                 // Use Picasso to load and display the image from the URL
-                                val url = "${movie.image}"
 
-                                if (!movie.image.isNullOrEmpty()) {
-                                    Log.e("MainActivity", "${movie.image}")
-                                    val imageView = root.findViewById<ImageView>(R.id.imageView1)
-                                    Picasso.get().load(movie.image).resize(150, 150).into(imageView)
-                                }
+                                //resultString += "ID: ${movie.id}\n"
+                                resultString += "Ranking: ${movie.rank}\n"
+                                resultString += "Title: ${movie.fullTitle}\n\n"
+                                resultString += "Rating IMDB: ${movie.imDbRating}\n"
+
+
+
+                                val imageView = root.findViewById<ImageView>(R.id.movies_img)
+                                Picasso.get().load("https://m.media-amazon.com/images/M/MV5BMDgxOTdjMzYtZGQxMS00ZTAzLWI4Y2UtMTQzN2VlYjYyZWRiXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_Ratio0.6716_AL_.jpg").resize(900,900).into(imageView)
 
                                 resultString += "\n\n"
                             }
+
                             resultTextView.text = resultString
                         }
 
@@ -96,29 +114,34 @@ class MoviesFragment : Fragment() {
                 }
 
                 override fun onFailure(
-                    call: Call<ApiService.MostPopularMoviesResponse>,
+                    call: Call<APIService.MoviesResponse>,
                     t: Throwable
                 ) {
                     Log.e("MainActivity", "Error en la llamada a la API", t)
                 }
             })
-        return root
+
+        //Aqui va el api
+        return root                                                  // Original del Fragment
 
     }
 
-    override fun onDestroyView() {
+    override fun onDestroyView() {                                   // Original del Fragment
         super.onDestroyView()
         _binding = null
     }
 }
 
+/**
     interface ApiService {
 
         @GET("/es/API/MostPopularMovies/k_09b1f803")
         fun getMostPopularMovies(
 
         ): Call<MostPopularMoviesResponse>
+
         //Most pupular data class
+
         data class MostPopularMoviesResponse(
             val items: List<MostPopularMovie>,
             val errorMessage: String
@@ -138,29 +161,6 @@ class MoviesFragment : Fragment() {
             @Path("apiKey") apiKey: String = "k_09b1f803",
             @Query("options") options: String = "Full"
         ): Call<TitleResponse>
-
-
-        @GET("/{lang}/API/SearchSeries/{apiKey}/{expression}")
-        fun searchSeries(
-            @Path("lang") lang: String?,
-            @Path("expression") expression: String?,
-            @Path("apiKey") apiKey: String? = "k_09b1f803"
-        ): Call<SearchResponseSeries>
-
-        @GET("/es/API/AdvancedSearch/{apiKey}/")
-        fun searchByGenre(
-
-            @Path("apiKey") apiKey: String,
-            @Query("parameters") parameters: String
-        ): Call<Root>
-
-        @GET("/{lang}/API/YouTubeTrailer/{apiKey}/{id}")
-        fun getTrailerUrl(
-            @Path("id") id: String,
-            @Path("lang") lang: String? = "es",
-            @Path("apiKey") apiKey: String = "k_09b1f803"
-
-        ): Call<TrailerYT>
     }
 
 
@@ -282,5 +282,6 @@ class MoviesFragment : Fragment() {
         val id: String,
         val name: String,
     )
+ **/
 
 

@@ -28,4 +28,7 @@
     <string name="message_content">Message</string>
     <string name="send_email">Send Email</string>
 
+       // Strings de Movies
+    <string name="loading_movies">Loading Movies...</string>
+
 </resources>
