@@ -129,6 +129,9 @@ class LoginScreen : AppCompatActivity() {
                 val intent = Intent(this, MainActivity::class.java);
                 startActivity(intent);
             }
+            .addOnFailureListener{
+                Toast.makeText(applicationContext, "Me chingué 1", Toast.LENGTH_LONG).show()
+            }
         }else
         {
             auth.startActivityForSignInWithProvider(this, provider.build())
@@ -136,6 +139,9 @@ class LoginScreen : AppCompatActivity() {
                     Toast.makeText(applicationContext, "Lograste logearte (?", Toast.LENGTH_LONG).show()
                     val intent = Intent(this, MainActivity::class.java);
                     startActivity(intent);
+                }
+                .addOnFailureListener{
+                    Toast.makeText(applicationContext, "Me chingué 1", Toast.LENGTH_LONG).show()
                 }
         }
     }
