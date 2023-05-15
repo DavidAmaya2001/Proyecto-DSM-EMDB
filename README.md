@@ -21,7 +21,7 @@ https://github.com/TuTioElPollo-Oficial/Proyecto-DSM-EMDB/tree/Fase-1/sources
 
 #### // MANUAL TÉCNICO
 
-https://udbedu-my.sharepoint.com/:w:/g/personal/pm191144_alumno_udb_edu_sv/EXC9w07UyktLsdOhtnJhWs4B065ZudVmVRIXZpg41dKx5Q?e=ccVEiJ
+[Manual Técnico EMDB](https://udbedu-my.sharepoint.com/:w:/g/personal/pm191144_alumno_udb_edu_sv/EXC9w07UyktLsdOhtnJhWs4B065ZudVmVRIXZpg41dKx5Q?e=ccVEiJ "Manual Técnico EMDB")
 
 #### //  MANUAL DE USUARIO
 
