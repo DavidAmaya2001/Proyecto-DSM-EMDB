@@ -16,6 +16,7 @@ import android.widget.ImageView
 import com.example.app.R
 
 import com.google.gson.Gson
+import com.google.gson.annotations.SerializedName
 import com.squareup.picasso.Picasso
 import retrofit2.Call
 import retrofit2.Callback
@@ -29,6 +30,13 @@ import retrofit2.http.Query
 
 class MoviesFragment : Fragment() {
 
+    private var _binding: FragmentMoviesBinding? = null
+
+    // This property is only valid between onCreateView and
+    // onDestroyView.
+    private val binding get() = _binding!!
+
+
     private val retrofit = Retrofit.Builder()
         .baseUrl("https://imdb-api.com")
         .addConverterFactory(GsonConverterFactory.create())
@@ -36,11 +44,6 @@ class MoviesFragment : Fragment() {
 
     private val apiService = retrofit.create(ApiService::class.java)
 
-    private var _binding: FragmentMoviesBinding? = null
-
-    // This property is only valid between onCreateView and
-    // onDestroyView.
-    private val binding get() = _binding!!
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -55,152 +58,51 @@ class MoviesFragment : Fragment() {
 
         //AQUÍ SE EMPIEZA A PROGRAMAR
 
-        return root
-
-
         //Para obtener resultados de una pelicula con el nombre que se busca
 
-        val nameMovie = "The Walking Dead"
 
-        apiService.searchMovies(nameMovie).enqueue(object : Callback<SearchResponse> {
-            override fun onResponse(
-                call: Call<SearchResponse>,
-                response: Response<SearchResponse>
-            ) {
-                if (response.isSuccessful) {
-                    val responseBody = response.body()
+        apiService.getMostPopularMovies()
+            .enqueue(object : Callback<ApiService.MostPopularMoviesResponse> {
+                override fun onResponse(
+                    call: Call<ApiService.MostPopularMoviesResponse>,
+                    response: Response<ApiService.MostPopularMoviesResponse>
+                ) {
+                    if (response.isSuccessful) {
+                        val responseBody = response.body()
 
-                    if (responseBody != null) {
-                        val resultTextView = root.findViewById<TextView>(R.id.result_text_view)
-                        var resultString = ""
-                        for (movie in responseBody.results) {
-                            resultString += "ID: ${movie.id}\n"
-                            resultString += "Result Type: ${movie.resultType}\n"
-                            resultString += "Title: ${movie.title}\n"
-                            resultString += "Description: ${movie.description}\n"
+                        if (responseBody != null) {
+                            val resultTextView = root.findViewById<TextView>(R.id.result_text_view)
+                            var resultString = ""
+                            for (movie in responseBody.items) {
+                                resultString += "ID: ${movie.id}\n"
+                                resultString += "Title: ${movie.title}\n"
+                                resultString += "Movie: ${movie.image}\n"
 
-                            // Use Picasso to load and display the image from the URL
-                            val url = "${movie.image}"
+                                // Use Picasso to load and display the image from the URL
+                                val url = "${movie.image}"
 
-                            if (!movie.image.isNullOrEmpty()) {
-                                Log.e("MainActivity", "${movie.image}")
-                                val imageView = root.findViewById<ImageView>(R.id.imageView1)
-                                Picasso.get().load(movie.image).resize(150, 150).into(imageView)
+                                if (!movie.image.isNullOrEmpty()) {
+                                    Log.e("MainActivity", "${movie.image}")
+                                    val imageView = root.findViewById<ImageView>(R.id.imageView1)
+                                    Picasso.get().load(movie.image).resize(150, 150).into(imageView)
+                                }
+
+                                resultString += "\n\n"
                             }
-
-                            resultString += "\n\n"
-                        }
-                        resultTextView.text = resultString
-                    }
-                }
-            }
-
-            override fun onFailure(call: Call<SearchResponse>, t: Throwable) {
-                Log.e("MainActivity", "Error searching movies", t)
-            }
-        })
-
-
-        // Función para buscar series
-        val nameSerie = "Lost"
-        val lang = "es"
-
-        apiService.searchSeries(lang, nameSerie).enqueue(object : Callback<SearchResponseSeries> {
-            override fun onResponse(
-                call: Call<SearchResponseSeries>,
-                response: Response<SearchResponseSeries>
-            ) {
-                if (response.isSuccessful) {
-                    val responseBody = response.body()
-
-                    if (responseBody != null) {
-                        val resultTextView = root.findViewById<TextView>(R.id.result_text_view)
-                        var resultString = ""
-
-                        for (serie in responseBody.results) {
-                            resultString += "ID: ${serie.id}\n"
-                            resultString += "Result Type: ${serie.resultType}\n"
-                            resultString += "Title: ${serie.title}\n"
-                            resultString += "Description: ${serie.description}\n"
-
-
-                            // Use Picasso to load and display the image from the URL
-                            val url = "${serie.image}"
-
-                            if (!serie.image.isNullOrEmpty()) {
-                                Log.e("MainActivity", "${serie.image}")
-                                val imageView = root.findViewById<ImageView>(R.id.imageView1)
-                                Picasso.get().load(serie.image).resize(150, 150).into(imageView)
-                            }
-
-                            resultString += "\n\n"
-                        }
-                        resultTextView.text = resultString
-                    }
-                }
-            }
-
-            override fun onFailure(call: Call<SearchResponseSeries>, t: Throwable) {
-                Log.e("MainActivity", "Error searching movies", t)
-            }
-        })
-
-
-        //Para obtener informacion especifica de una pelicula o serie
-
-        apiService.getMovieDetails("tt1520211", "es").enqueue(object : Callback<TitleResponse> {
-            override fun onResponse(call: Call<TitleResponse>, response: Response<TitleResponse>) {
-                if (response.isSuccessful) {
-                    val responseBody = response.body()
-
-                    if (responseBody != null) {
-                        val detailsTextView = root.findViewById<TextView>(R.id.result_text_view)
-                        var detailsString = ""
-                        detailsString += "Title: ${responseBody.fullTitle}\n"
-                        detailsString += "Type: ${responseBody.type}\n"
-                        detailsString += "Runtime: ${responseBody.runtimeStr}\n"
-                        detailsString += "Directors: ${responseBody.directors}\n"
-                        detailsString += "Plot: ${responseBody.plotLocal}\n"
-                        detailsString += "Trailer URLs: ${responseBody.trailer.link} \n"
-
-
-                        // Use Picasso to load and display the image from the URL
-                        val url = "${responseBody.image}"
-                        if (!url.isNullOrEmpty()) {
-                            val imageView = root.findViewById<ImageView>(R.id.imageView1)
-                            Picasso.get().load(url).resize(150, 450).into(imageView)
+                            resultTextView.text = resultString
                         }
 
-                        detailsTextView.text = detailsString
                     }
                 }
-            }
 
-
-            override fun onFailure(call: Call<TitleResponse>, t: Throwable) {
-                Log.e("MainActivity", "Error getting movie details", t)
-            }
-        })
-
-
-        //Funcion para obtener el link del trailer de la pelicula o serie de YouTube
-
-        val id = "tt1520211" //Solo se cambia el codigo de la pelicula que quieren obtener el url
-
-        apiService.getTrailerUrl(id).enqueue(object : Callback<TrailerYT> {
-            override fun onResponse(call: Call<TrailerYT>, response: Response<TrailerYT>) {
-                if (response.isSuccessful) {
-                    val trailerUrl = response.body()?.videoUrl
-                    root.findViewById<TextView>(R.id.result_text_view).text = trailerUrl
-                } else {
-                    Log.e("API Error", "getTrailerUrl request failed with code ${response.code()}")
+                override fun onFailure(
+                    call: Call<ApiService.MostPopularMoviesResponse>,
+                    t: Throwable
+                ) {
+                    Log.e("MainActivity", "Error en la llamada a la API", t)
                 }
-            }
-
-            override fun onFailure(call: Call<TrailerYT>, t: Throwable) {
-                Log.e("API Error", "getTrailerUrl request failed", t)
-            }
-        })
+            })
+        return root
 
     }
 
@@ -208,8 +110,21 @@ class MoviesFragment : Fragment() {
         super.onDestroyView()
         _binding = null
     }
+}
 
     interface ApiService {
+
+        @GET("/es/API/MostPopularMovies/k_09b1f803")
+        fun getMostPopularMovies(
+
+        ): Call<MostPopularMoviesResponse>
+        //Most pupular data class
+        data class MostPopularMoviesResponse(
+            val items: List<MostPopularMovie>,
+            val errorMessage: String
+        )
+
+
         @GET("/en/API/SearchMovie/{apiKey}/{expression}")
         fun searchMovies(
             @Path("expression") expression: String,
@@ -250,6 +165,18 @@ class MoviesFragment : Fragment() {
 
 
     //data class para funcion searchMovies
+
+    data class MostPopularMovie(
+        val id: String,
+        @SerializedName("poster_path")
+        val posterPath: String?,
+        val title: String,
+        val overview: String,
+        @SerializedName("vote_average")
+        val voteAverage: Double,
+        val image: String
+    )
+
     data class Movie(
         val id: String,
         val resultType: String,
@@ -355,5 +282,5 @@ class MoviesFragment : Fragment() {
         val id: String,
         val name: String,
     )
-}
+
 
