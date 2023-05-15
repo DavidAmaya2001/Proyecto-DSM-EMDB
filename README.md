@@ -1,6 +1,6 @@
 # Proyecto-DSM-EMDB
 
-//  INTEGRANTES
+#### //  INTEGRANTES
 
 - David Elias Amaya Ramirez AR190019
 - Carlos Emerson Portillo Martínez PM191144
@@ -9,27 +9,24 @@
 - Alejandro José Castillo Pacheco CP190719
 
 
-//  LINK TRELLO
+#### //  LINK TRELLO
 
 https://trello.com/invite/b/4soeP44c/ATTI5bfbc4ccbf66c8b855d3246076073c9a10BDAC16/app-emdb
 
-//  LINK FIGMA (MockUps)
+#### //  LINK FIGMA (MockUps)
 
 https://www.figma.com/file/HkvlkLkKNIUluu1v1zBq0Y/Untitled?node-id=0%3A1&t=2qLXfmvKZukBAlaP-1
 
 https://github.com/TuTioElPollo-Oficial/Proyecto-DSM-EMDB/tree/Fase-1/sources
 
-<<<<<<< HEAD
-//  DOCUMENTO FASE 1
+#### // MANUAL TÉCNICO
 
-https://udbedu-my.sharepoint.com/:w:/g/personal/pm191144_alumno_udb_edu_sv/EXC9w07UyktLsdOhtnJhWs4BOGIGVXjAju1pgDyoq-FTJw?rtime=TuCRhvQS20g
-=======
-//  DOCUMENTO PDF
->>>>>>> f094ec5990095c54bee022ba1ff1ad1cca801863
+https://udbedu-my.sharepoint.com/:w:/g/personal/pm191144_alumno_udb_edu_sv/EXC9w07UyktLsdOhtnJhWs4B065ZudVmVRIXZpg41dKx5Q?e=ccVEiJ
 
-https://udbedu-my.sharepoint.com/:w:/g/personal/pm191144_alumno_udb_edu_sv/EXC9w07UyktLsdOhtnJhWs4BOGIGVXjAju1pgDyoq-FTJw?e=Czia7v
+#### //  MANUAL DE USUARIO
 
-https://github.com/TuTioElPollo-Oficial/Proyecto-DSM-EMDB/tree/Fase-1/Docs
+[Gestión de Entretenimiento EMDB](http://https://www.canva.com/design/DAFgSptAO6Y/NTdsd_DXozDUkYGLs4rpqQ/edit?utm_content=DAFgSptAO6Y&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton "Gestión de Entretenimiento EMDB")
+
 
 //  LICENCIAS CREATIVE COMMONS
 
