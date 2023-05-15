@@ -35,6 +35,6 @@
 
        // Strings de Movies
     <string name="loading_movies">Cargando Peliculas</string>
-
+    <string name="title_activity_login">Login</string>
 
 </resources>
