@@ -1,0 +1,310 @@
+[
+    {
+        "merged": "com.example.app-merged_res-57:/mipmap-xhdpi_google.png.flat",
+        "source": "com.example.app-main-59:/mipmap-xhdpi/google.png"
+    },
+    {
+        "merged": "com.example.app-merged_res-57:/layout_fragment_series.xml.flat",
+        "source": "com.example.app-main-59:/layout/fragment_series.xml"
+    },
+    {
+        "merged": "com.example.app-merged_res-57:/mipmap-mdpi_google_round.png.flat",
+        "source": "com.example.app-main-59:/mipmap-mdpi/google_round.png"
+    },
+    {
+        "merged": "com.example.app-merged_res-57:/drawable_lock_icon.xml.flat",
+        "source": "com.example.app-main-59:/drawable/lock_icon.xml"
+    },
+    {
+        "merged": "com.example.app-merged_res-57:/navigation_mobile_navigation.xml.flat",
+        "source": "com.example.app-main-59:/navigation/mobile_navigation.xml"
+    },
+    {
+        "merged": "com.example.app-merged_res-57:/menu_activity_main_drawer.xml.flat",
+        "source": "com.example.app-main-59:/menu/activity_main_drawer.xml"
+    },
+    {
+        "merged": "com.example.app-merged_res-57:/drawable_sms.png.flat",
+        "source": "com.example.app-main-59:/drawable/sms.png"
+    },
+    {
+        "merged": "com.example.app-merged_res-57:/mipmap-xxxhdpi_google_foreground.png.flat",
+        "source": "com.example.app-main-59:/mipmap-xxxhdpi/google_foreground.png"
+    },
+    {
+        "merged": "com.example.app-merged_res-57:/mipmap-xhdpi_google_round.png.flat",
+        "source": "com.example.app-main-59:/mipmap-xhdpi/google_round.png"
+    },
+    {
+        "merged": "com.example.app-merged_res-57:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.app-main-59:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.app-merged_res-57:/layout_content_main.xml.flat",
+        "source": "com.example.app-main-59:/layout/content_main.xml"
+    },
+    {
+        "merged": "com.example.app-merged_res-57:/mipmap-anydpi-v26_google.xml.flat",
+        "source": "com.example.app-main-59:/mipmap-anydpi-v26/google.xml"
+    },
+    {
+        "merged": "com.example.app-merged_res-57:/mipmap-xxxhdpi_mysplash.png.flat",
+        "source": "com.example.app-main-59:/mipmap-xxxhdpi/mysplash.png"
+    },
+    {
+        "merged": "com.example.app-merged_res-57:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.app-main-59:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.app-merged_res-57:/drawable_infoimage.png.flat",
+        "source": "com.example.app-main-59:/drawable/infoimage.png"
+    },
+    {
+        "merged": "com.example.app-merged_res-57:/layout_activity_login_screen.xml.flat",
+        "source": "com.example.app-main-59:/layout/activity_login_screen.xml"
+    },
+    {
+        "merged": "com.example.app-merged_res-57:/drawable_ic_menu_home.xml.flat",
+        "source": "com.example.app-main-59:/drawable/ic_menu_home.xml"
+    },
+    {
+        "merged": "com.example.app-merged_res-57:/menu_main.xml.flat",
+        "source": "com.example.app-main-59:/menu/main.xml"
+    },
+    {
+        "merged": "com.example.app-merged_res-57:/layout_popup_info.xml.flat",
+        "source": "com.example.app-main-59:/layout/popup_info.xml"
+    },
+    {
+        "merged": "com.example.app-merged_res-57:/mipmap-xxhdpi_google.png.flat",
+        "source": "com.example.app-main-59:/mipmap-xxhdpi/google.png"
+    },
+    {
+        "merged": "com.example.app-merged_res-57:/layout_fragment_contacts.xml.flat",
+        "source": "com.example.app-main-59:/layout/fragment_contacts.xml"
+    },
+    {
+        "merged": "com.example.app-merged_res-57:/drawable_rounded_txt.xml.flat",
+        "source": "com.example.app-main-59:/drawable/rounded_txt.xml"
+    },
+    {
+        "merged": "com.example.app-merged_res-57:/mipmap-xxhdpi_google_round.png.flat",
+        "source": "com.example.app-main-59:/mipmap-xxhdpi/google_round.png"
+    },
+    {
+        "merged": "com.example.app-merged_res-57:/layout_activity_contact_message.xml.flat",
+        "source": "com.example.app-main-59:/layout/activity_contact_message.xml"
+    },
+    {
+        "merged": "com.example.app-merged_res-57:/layout_activity_main.xml.flat",
+        "source": "com.example.app-main-59:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.app-merged_res-57:/drawable_ic_menu_series.xml.flat",
+        "source": "com.example.app-main-59:/drawable/ic_menu_series.xml"
+    },
+    {
+        "merged": "com.example.app-merged_res-57:/mipmap-xxhdpi_google_foreground.png.flat",
+        "source": "com.example.app-main-59:/mipmap-xxhdpi/google_foreground.png"
+    },
+    {
+        "merged": "com.example.app-merged_res-57:/drawable_circlebackground.xml.flat",
+        "source": "com.example.app-main-59:/drawable/circlebackground.xml"
+    },
+    {
+        "merged": "com.example.app-merged_res-57:/mipmap-mdpi_google_foreground.png.flat",
+        "source": "com.example.app-main-59:/mipmap-mdpi/google_foreground.png"
+    },
+    {
+        "merged": "com.example.app-merged_res-57:/layout_nav_header_main.xml.flat",
+        "source": "com.example.app-main-59:/layout/nav_header_main.xml"
+    },
+    {
+        "merged": "com.example.app-merged_res-57:/drawable_baseline_arrow_back_ios_new_24.xml.flat",
+        "source": "com.example.app-main-59:/drawable/baseline_arrow_back_ios_new_24.xml"
+    },
+    {
+        "merged": "com.example.app-merged_res-57:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.app-main-59:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.app-merged_res-57:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.app-main-59:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.app-merged_res-57:/layout_activity_register_screen.xml.flat",
+        "source": "com.example.app-main-59:/layout/activity_register_screen.xml"
+    },
+    {
+        "merged": "com.example.app-merged_res-57:/drawable_ic_menu_movies.xml.flat",
+        "source": "com.example.app-main-59:/drawable/ic_menu_movies.xml"
+    },
+    {
+        "merged": "com.example.app-merged_res-57:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.app-main-59:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.app-merged_res-57:/drawable_ic_menu_account.xml.flat",
+        "source": "com.example.app-main-59:/drawable/ic_menu_account.xml"
+    },
+    {
+        "merged": "com.example.app-merged_res-57:/mipmap-hdpi_google_foreground.png.flat",
+        "source": "com.example.app-main-59:/mipmap-hdpi/google_foreground.png"
+    },
+    {
+        "merged": "com.example.app-merged_res-57:/drawable_google_background.xml.flat",
+        "source": "com.example.app-main-59:/drawable/google_background.xml"
+    },
+    {
+        "merged": "com.example.app-merged_res-57:/mipmap-anydpi-v26_google_round.xml.flat",
+        "source": "com.example.app-main-59:/mipmap-anydpi-v26/google_round.xml"
+    },
+    {
+        "merged": "com.example.app-merged_res-57:/layout_fragment_home.xml.flat",
+        "source": "com.example.app-main-59:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.example.app-merged_res-57:/drawable_user_icon.xml.flat",
+        "source": "com.example.app-main-59:/drawable/user_icon.xml"
+    },
+    {
+        "merged": "com.example.app-merged_res-57:/drawable_facebook.png.flat",
+        "source": "com.example.app-main-59:/drawable/facebook.png"
+    },
+    {
+        "merged": "com.example.app-merged_res-57:/layout_app_bar_main.xml.flat",
+        "source": "com.example.app-main-59:/layout/app_bar_main.xml"
+    },
+    {
+        "merged": "com.example.app-merged_res-57:/layout_fragment_account.xml.flat",
+        "source": "com.example.app-main-59:/layout/fragment_account.xml"
+    },
+    {
+        "merged": "com.example.app-merged_res-57:/mipmap-hdpi_google_round.png.flat",
+        "source": "com.example.app-main-59:/mipmap-hdpi/google_round.png"
+    },
+    {
+        "merged": "com.example.app-merged_res-57:/mipmap-xxxhdpi_google_round.png.flat",
+        "source": "com.example.app-main-59:/mipmap-xxxhdpi/google_round.png"
+    },
+    {
+        "merged": "com.example.app-merged_res-57:/mipmap-xxxhdpi_icono.png.flat",
+        "source": "com.example.app-main-59:/mipmap-xxxhdpi/icono.png"
+    },
+    {
+        "merged": "com.example.app-merged_res-57:/drawable_whatsapp.png.flat",
+        "source": "com.example.app-main-59:/drawable/whatsapp.png"
+    },
+    {
+        "merged": "com.example.app-merged_res-57:/drawable_splashscreen.xml.flat",
+        "source": "com.example.app-main-59:/drawable/splashscreen.xml"
+    },
+    {
+        "merged": "com.example.app-merged_res-57:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.app-main-59:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.app-merged_res-57:/drawable_google.png.flat",
+        "source": "com.example.app-main-59:/drawable/google.png"
+    },
+    {
+        "merged": "com.example.app-merged_res-57:/drawable_twitterlogin.png.flat",
+        "source": "com.example.app-main-59:/drawable/twitterlogin.png"
+    },
+    {
+        "merged": "com.example.app-merged_res-57:/drawable_email_icon.xml.flat",
+        "source": "com.example.app-main-59:/drawable/email_icon.xml"
+    },
+    {
+        "merged": "com.example.app-merged_res-57:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.app-main-59:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.app-merged_res-57:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.app-main-59:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.app-merged_res-57:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.app-main-59:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.app-merged_res-57:/mipmap-hdpi_google.png.flat",
+        "source": "com.example.app-main-59:/mipmap-hdpi/google.png"
+    },
+    {
+        "merged": "com.example.app-merged_res-57:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.app-main-59:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.app-merged_res-57:/drawable_rounded_btn.xml.flat",
+        "source": "com.example.app-main-59:/drawable/rounded_btn.xml"
+    },
+    {
+        "merged": "com.example.app-merged_res-57:/drawable_logosb.png.flat",
+        "source": "com.example.app-main-59:/drawable/logosb.png"
+    },
+    {
+        "merged": "com.example.app-merged_res-57:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.app-pngs-52:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.app-merged_res-57:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.app-main-59:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.app-merged_res-57:/mipmap-xxxhdpi_google.png.flat",
+        "source": "com.example.app-main-59:/mipmap-xxxhdpi/google.png"
+    },
+    {
+        "merged": "com.example.app-merged_res-57:/layout_fragment_movies.xml.flat",
+        "source": "com.example.app-main-59:/layout/fragment_movies.xml"
+    },
+    {
+        "merged": "com.example.app-merged_res-57:/layout_activity_contact_email.xml.flat",
+        "source": "com.example.app-main-59:/layout/activity_contact_email.xml"
+    },
+    {
+        "merged": "com.example.app-merged_res-57:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.app-main-59:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.app-merged_res-57:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.app-main-59:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.app-merged_res-57:/mipmap-xhdpi_google_foreground.png.flat",
+        "source": "com.example.app-main-59:/mipmap-xhdpi/google_foreground.png"
+    },
+    {
+        "merged": "com.example.app-merged_res-57:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.app-main-59:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.app-merged_res-57:/drawable_telegram.png.flat",
+        "source": "com.example.app-main-59:/drawable/telegram.png"
+    },
+    {
+        "merged": "com.example.app-merged_res-57:/drawable_side_nav_bar.xml.flat",
+        "source": "com.example.app-main-59:/drawable/side_nav_bar.xml"
+    },
+    {
+        "merged": "com.example.app-merged_res-57:/drawable_gmail.png.flat",
+        "source": "com.example.app-main-59:/drawable/gmail.png"
+    },
+    {
+        "merged": "com.example.app-merged_res-57:/mipmap-mdpi_google.png.flat",
+        "source": "com.example.app-main-59:/mipmap-mdpi/google.png"
+    },
+    {
+        "merged": "com.example.app-merged_res-57:/drawable_twitter.png.flat",
+        "source": "com.example.app-main-59:/drawable/twitter.png"
+    },
+    {
+        "merged": "com.example.app-merged_res-57:/xml_backup_rules.xml.flat",
+        "source": "com.example.app-main-59:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.app-merged_res-57:/drawable_ic_menu_contact.xml.flat",
+        "source": "com.example.app-main-59:/drawable/ic_menu_contact.xml"
+    }
+]

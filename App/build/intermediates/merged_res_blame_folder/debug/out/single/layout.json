@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "com.example.app-mergeDebugResources-56:/layout/fragment_contacts.xml",
+        "source": "com.example.app-main-59:/layout/fragment_contacts.xml"
+    },
+    {
+        "merged": "com.example.app-mergeDebugResources-56:/layout/fragment_account.xml",
+        "source": "com.example.app-main-59:/layout/fragment_account.xml"
+    },
+    {
+        "merged": "com.example.app-mergeDebugResources-56:/layout/app_bar_main.xml",
+        "source": "com.example.app-main-59:/layout/app_bar_main.xml"
+    },
+    {
+        "merged": "com.example.app-mergeDebugResources-56:/layout/activity_register_screen.xml",
+        "source": "com.example.app-main-59:/layout/activity_register_screen.xml"
+    },
+    {
+        "merged": "com.example.app-mergeDebugResources-56:/layout/activity_main.xml",
+        "source": "com.example.app-main-59:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.app-mergeDebugResources-56:/layout/activity_contact_email.xml",
+        "source": "com.example.app-main-59:/layout/activity_contact_email.xml"
+    },
+    {
+        "merged": "com.example.app-mergeDebugResources-56:/layout/content_main.xml",
+        "source": "com.example.app-main-59:/layout/content_main.xml"
+    },
+    {
+        "merged": "com.example.app-mergeDebugResources-56:/layout/nav_header_main.xml",
+        "source": "com.example.app-main-59:/layout/nav_header_main.xml"
+    },
+    {
+        "merged": "com.example.app-mergeDebugResources-56:/layout/fragment_home.xml",
+        "source": "com.example.app-main-59:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.example.app-mergeDebugResources-56:/layout/activity_contact_message.xml",
+        "source": "com.example.app-main-59:/layout/activity_contact_message.xml"
+    },
+    {
+        "merged": "com.example.app-mergeDebugResources-56:/layout/fragment_series.xml",
+        "source": "com.example.app-main-59:/layout/fragment_series.xml"
+    },
+    {
+        "merged": "com.example.app-mergeDebugResources-56:/layout/popup_info.xml",
+        "source": "com.example.app-main-59:/layout/popup_info.xml"
+    },
+    {
+        "merged": "com.example.app-mergeDebugResources-56:/layout/activity_login_screen.xml",
+        "source": "com.example.app-main-59:/layout/activity_login_screen.xml"
+    },
+    {
+        "merged": "com.example.app-mergeDebugResources-56:/layout/fragment_movies.xml",
+        "source": "com.example.app-main-59:/layout/fragment_movies.xml"
+    }
+]

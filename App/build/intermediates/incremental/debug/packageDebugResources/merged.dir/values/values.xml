@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="buttonColor">#C1232F</color>
+    <color name="buttonShare">#FB0303</color>
+    <color name="primary">#181A20</color>
+    <color name="primaryGray">#9E9E9E</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="secondary">#1F222A</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">App</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_sendSMS">Send SMS</string>
+    <string name="btn_share">Share App!</string>
+    <string name="btn_sms_name">Message</string>
+    <string name="content_popup">You can contact us through our digital platforms or via text message (keep in mind that the text message may be subject to shipping charges according to the telephone operator).</string>
+    <string name="default_web_client_id" translatable="false">861719252186-3upctcs97si0e8csmgogle8n1kds25i0.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">861719252186</string>
+    <string name="google_api_key" translatable="false">AIzaSyARMDp2ec0WLMbs_kiZUXdzcePJxT6A10M</string>
+    <string name="google_app_id" translatable="false">1:861719252186:android:2a152e2040961a16cda9e3</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyARMDp2ec0WLMbs_kiZUXdzcePJxT6A10M</string>
+    <string name="google_storage_bucket" translatable="false">emdb-7285a.appspot.com</string>
+    <string name="loading_movies">Loading Movies...</string>
+    <string name="menu_account">Account</string>
+    <string name="menu_contacts">Contacts</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_movies">Movies</string>
+    <string name="menu_series">Series</string>
+    <string name="message_contact">Enter Message</string>
+    <string name="message_content">Message</string>
+    <string name="nav_contacts">Select an option:</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="nav_header_title">EMDB | Your reviews app</string>
+    <string name="nav_popup">Thanks for your preference!</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="project_id" translatable="false">emdb-7285a</string>
+    <string name="send_email">Send Email</string>
+    <string name="series_descp">Description:</string>
+    <string name="series_name">Name:</string>
+    <string name="series_status">Loading Series...</string>
+    <string name="subject_content">Subject</string>
+    <string name="support_EMDB">EMDB Support</string>
+    <string name="title_activity_login">Login</string>
+    <style name="Theme.App" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        
+
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.App.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="Theme.App.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+    <style name="splashTheme" parent="Theme.App">
+        <item name="android:windowBackground">@drawable/splashscreen</item>
+    </style>
+</resources>

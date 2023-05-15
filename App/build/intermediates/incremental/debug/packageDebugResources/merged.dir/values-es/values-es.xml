@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_settings">Configuracion</string>
+    <string name="app_name">App</string>
+    <string name="btn_cancel">Cancelar</string>
+    <string name="btn_sendSMS">Enviar SMS</string>
+    <string name="btn_share">¡Compartir!</string>
+    <string name="btn_sms_name">Mensaje</string>
+    <string name="content_popup">Puedes contactarnos por medio de nuestras plataformas digitales o a través de mensajes de texto (Tenga en cuenta que los mensajes de texto pueden estar sujetos a cargos de envió según la operadora telefonica).</string>
+    <string name="loading_movies">Cargando Peliculas</string>
+    <string name="menu_account">Cuenta</string>
+    <string name="menu_contacts">Contacto</string>
+    <string name="menu_home">Inicio</string>
+    <string name="menu_movies">Peliculas</string>
+    <string name="menu_series">Series</string>
+    <string name="message_contact">Escriba su mensaje</string>
+    <string name="message_content">Mensaje</string>
+    <string name="nav_contacts">Seleccione una opción:</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="nav_header_title">EMDB | Tu aplicación de reseñas</string>
+    <string name="nav_popup">¡Gracias por su preferencia!</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="send_email">Enviar Correo</string>
+    <string name="series_descp">Descripción:</string>
+    <string name="series_name">Nombre:</string>
+    <string name="series_status">Cargando el listado...</string>
+    <string name="subject_content">Asunto</string>
+    <string name="support_EMDB">Soporte de EMDB</string>
+    <string name="title_activity_login">Login</string>
+</resources>
